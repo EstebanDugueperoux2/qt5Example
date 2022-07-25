@@ -1,12 +1,14 @@
 #ifndef EMPLOYEE_H
 #define EMPLOYEE_H
 
+include <QString>
+include <QDate>
+
 class Employee
 {
 public:
     Employee() {}
     Employee(const QString &name, QDate dateOfBirth);
-    ...
 
 private:
     QString myName;
