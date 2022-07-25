@@ -19,7 +19,9 @@ jobs:
     - uses: addnab/docker-run-action@v3
       with:
         image: conanio/gcc7
+        options: -v ${{ github.workspace }}:/work -e ABC=123
         run: |
+          cd /work
           ls -l
           pwd
           conan create . --profile .conan/profiles/gcc7 --build missing
