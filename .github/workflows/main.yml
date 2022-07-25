@@ -1,4 +1,4 @@
-name: C/C++ CI
+name: Conan CI
 
 on:
   push:
@@ -16,6 +16,5 @@ jobs:
     - uses: addnab/docker-run-action@v3
       with:
         image: conanio/gcc11
-    run: |
-      conan --version
+        run: conan --version
   

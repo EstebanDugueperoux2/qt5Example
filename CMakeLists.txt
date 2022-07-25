@@ -3,7 +3,7 @@ project(qt5Example CXX)
 
 find_package(Qt5 REQUIRED COMPONENTS Core)
 
-add_executable(qt5Example src/qt5Example.cpp src/main.cpp)
+add_executable(qt5Example src/qt5Example.cpp src/main.cpp src/Employee.cpp)
 target_include_directories(qt5Example PUBLIC include)
 
 target_link_libraries(qt5Example PUBLIC Qt5::Core)
