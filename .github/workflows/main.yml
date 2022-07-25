@@ -19,5 +19,8 @@ jobs:
     - uses: addnab/docker-run-action@v3
       with:
         image: conanio/gcc7
-        run: conan create . --profile .conan/profiles/gcc7 --build missing
+        run: |
+          ls -l
+          pwd
+          conan create . --profile .conan/profiles/gcc7 --build missing
   
