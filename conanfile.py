@@ -13,7 +13,7 @@ class Qt5ExampleConan(ConanFile):
     description = "<Description of Qt5Example here>"
     topics = ("<Put some tag here>", "<here>", "<and here>")
 
-    requires = "qt/5.15.5"
+    requires = "qt/5.15.6"
 
     tool_requires = ("cmake/3.23.2",
                 "ninja/1.11.0",
@@ -30,25 +30,26 @@ class Qt5ExampleConan(ConanFile):
         "fPIC": [True, False],
     }
     default_options = {
-                       "shared": False,
-                       "fPIC": True,
-                       "qt:opengl": "no",
-                       "qt:openssl": False,
-                       "qt:with_pcre2": True,
-                       "qt:with_freetype": True,
-                       "qt:with_fontconfig": True,
-                       "qt:with_icu": True,
-                       "qt:with_libjpeg": "False",
-                       "qt:with_libpng": False,
-                       "qt:with_sqlite3": False,
-                       "qt:with_mysql": False,
-                       "qt:with_pq": False,
-                       "qt:with_odbc": False,
-                       "qt:with_openal": False,
-                       "qt:with_zstd": True,
-                       "qt:with_md4c": False,
-                       "qt:gui": False,
-                       "qt:widgets": False,
+                       "shared": True,
+                       "fPIC": False,
+                       #"qt:opengl": "no",
+                    #    "qt:openssl": False,
+                    #    "qt:with_pcre2": True,
+                    #    "qt:with_freetype": True,
+                    #    "qt:with_fontconfig": True,
+                    #    "qt:with_icu": True,
+                    #    "qt:with_libjpeg": "False",
+                    #    "qt:with_libpng": False,
+                    #    "qt:with_sqlite3": False,
+                    #    "qt:with_mysql": False,
+                    #    "qt:with_pq": False,
+                    #    "qt:with_odbc": False,
+                    #    "qt:with_openal": False,
+                    #    "qt:with_zstd": True,
+                    #    "qt:with_md4c": False,
+                    #    "qt:gui": True,
+                    #    "qt:widgets": True,
+                    #    "qt:qtwayland": True
     }
 
     # Sources are located in the same place as this recipe, copy them to the recipe
@@ -72,3 +73,6 @@ class Qt5ExampleConan(ConanFile):
     def package(self):
         cmake = CMake(self)
         cmake.install()
+
+    def package_info(self):
+        self.runenv_info.define("QT_QPA_PLATFORM", "wayland")

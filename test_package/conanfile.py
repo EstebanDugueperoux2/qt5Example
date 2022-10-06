@@ -20,4 +20,4 @@ class Qt5ExampleTestConan(ConanFile):
 
     def test(self):
         if not cross_building(self):
-            self.run("qt5Example", env="conanrun")
+            self.run("qt5Example -platform=wayland", env="conanrun")
