@@ -13,7 +13,11 @@ class Qt5ExampleConan(ConanFile):
     description = "<Description of Qt5Example here>"
     topics = ("<Put some tag here>", "<here>", "<and here>")
 
-    requires = "qt/5.15.6"
+    requires = (
+        "qt/5.15.6",
+        # Override to fix conflict between wayland and fontconfig
+        "expat/2.4.9"
+    )
 
     tool_requires = ("cmake/3.23.2",
                 "ninja/1.11.0",
@@ -30,8 +34,9 @@ class Qt5ExampleConan(ConanFile):
         "fPIC": [True, False],
     }
     default_options = {
-                       "shared": True,
+                       "shared": False,
                        "fPIC": False,
+                       "qt:shared": "True",
                        #"qt:opengl": "no",
                     #    "qt:openssl": False,
                     #    "qt:with_pcre2": True,

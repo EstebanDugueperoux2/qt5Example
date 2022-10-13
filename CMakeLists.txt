@@ -16,4 +16,10 @@ target_include_directories(qt5Example PUBLIC include)
 
 target_link_libraries(qt5Example Qt5::Widgets)
 
+get_target_property(_target_libraries Qt5::Widgets INTERFACE_LINK_LIBRARIES)
+get_target_property(_target_location Qt5::Widgets LOCATION)
+
+message("_target_libraries: ${_target_libraries}")
+message("_target_location: ${_target_location}")
+
 install(TARGETS qt5Example)
