@@ -1,0 +1,1734 @@
+Configuration (profile_host):
+[settings]
+arch=x86_64
+arch_build=x86_64
+build_type=Release
+compiler=gcc
+compiler.libcxx=libstdc++11
+compiler.version=8
+os=Linux
+os_build=Linux
+[options]
+[build_requires]
+[env]
+[conf]
+tools.system.package_manager:mode=install
+tools.system.package_manager:sudo=True
+
+Configuration (profile_build):
+[settings]
+arch=x86_64
+arch_build=x86_64
+build_type=Release
+compiler=gcc
+compiler.libcxx=libstdc++11
+compiler.version=8
+os=Linux
+os_build=Linux
+[options]
+[build_requires]
+[env]
+
+qt/5.15.7: Not found in local cache, looking in remotes...
+qt/5.15.7: Trying with 'conancenter'...
+Downloading conanmanifest.txt
+Downloading conanfile.py
+Downloading conan_export.tgz
+qt/5.15.7: Downloaded recipe revision cedfced44f4c11567380a955740cde6f
+zlib/1.2.13: Not found in local cache, looking in remotes...
+zlib/1.2.13: Trying with 'conancenter'...
+Downloading conanmanifest.txt
+Downloading conanfile.py
+Downloading conan_export.tgz
+zlib/1.2.13: Downloaded recipe revision 13c96f538b52e1600c40b88994de240f
+openssl/1.1.1s: Not found in local cache, looking in remotes...
+openssl/1.1.1s: Trying with 'conancenter'...
+Downloading conanmanifest.txt
+Downloading conanfile.py
+Downloading conan_export.tgz
+openssl/1.1.1s: Downloaded recipe revision 4cdbdf05388774e8de45fa18c9468286
+pcre2/10.40: Not found in local cache, looking in remotes...
+pcre2/10.40: Trying with 'conancenter'...
+Downloading conanmanifest.txt
+Downloading conanfile.py
+Downloading conan_export.tgz
+pcre2/10.40: Downloaded recipe revision 58467e19b38a61f5c3f065006fb684f6
+bzip2/1.0.8: Not found in local cache, looking in remotes...
+bzip2/1.0.8: Trying with 'conancenter'...
+Downloading conanmanifest.txt
+Downloading conanfile.py
+Downloading conan_export.tgz
+bzip2/1.0.8: Downloaded recipe revision 464be69744fa6d48ed01928cfe470008
+double-conversion/3.2.1: Not found in local cache, looking in remotes...
+double-conversion/3.2.1: Trying with 'conancenter'...
+Downloading conanmanifest.txt
+Downloading conanfile.py
+Downloading conan_export.tgz
+double-conversion/3.2.1: Downloaded recipe revision cf341abcbb9193109974c39caacc0392
+freetype/2.12.1: Not found in local cache, looking in remotes...
+freetype/2.12.1: Trying with 'conancenter'...
+Downloading conanmanifest.txt
+Downloading conanfile.py
+Downloading conan_export.tgz
+freetype/2.12.1: Downloaded recipe revision 7e1b67634f54f38a979bbad44fd09a2c
+libpng/1.6.38: Not found in local cache, looking in remotes...
+libpng/1.6.38: Trying with 'conancenter'...
+Downloading conanmanifest.txt
+Downloading conanfile.py
+Downloading conan_export.tgz
+libpng/1.6.38: Downloaded recipe revision d97e18208070aff615f52580387933af
+brotli/1.0.9: Not found in local cache, looking in remotes...
+brotli/1.0.9: Trying with 'conancenter'...
+Downloading conanmanifest.txt
+Downloading conanfile.py
+Downloading conan_export.tgz
+brotli/1.0.9: Downloaded recipe revision 4bfbb302b87df342ccd6a2b5fdad307a
+fontconfig/2.13.93: Not found in local cache, looking in remotes...
+fontconfig/2.13.93: Trying with 'conancenter'...
+Downloading conanmanifest.txt
+Downloading conanfile.py
+Downloading conan_export.tgz
+fontconfig/2.13.93: Downloaded recipe revision 717c60e5404f3f232664e565f6b7cd25
+expat/2.5.0: Not found in local cache, looking in remotes...
+expat/2.5.0: Trying with 'conancenter'...
+Downloading conanmanifest.txt
+Downloading conanfile.py
+Downloading conan_export.tgz
+expat/2.5.0: Downloaded recipe revision 98829cfd97ab55bceed0911eb7825a72
+libuuid/1.0.3: Not found in local cache, looking in remotes...
+libuuid/1.0.3: Trying with 'conancenter'...
+Downloading conanmanifest.txt
+Downloading conanfile.py
+Downloading conan_export.tgz
+libuuid/1.0.3: Downloaded recipe revision 3e9be5bc8c9cc5fe341262bfb8fba195
+icu/71.1: Not found in local cache, looking in remotes...
+icu/71.1: Trying with 'conancenter'...
+Downloading conanmanifest.txt
+Downloading conanfile.py
+Downloading conan_export.tgz
+icu/71.1: Downloaded recipe revision 36b5b74e00ab6a663ab979ca1737b798
+libjpeg/9e: Not found in local cache, looking in remotes...
+libjpeg/9e: Trying with 'conancenter'...
+Downloading conanmanifest.txt
+Downloading conanfile.py
+Downloading conan_export.tgz
+libjpeg/9e: Downloaded recipe revision 129230c05b9705a9bbd6724f5de8eb98
+sqlite3/3.39.4: Not found in local cache, looking in remotes...
+sqlite3/3.39.4: Trying with 'conancenter'...
+Downloading conanmanifest.txt
+Downloading conanfile.py
+Downloading conan_export.tgz
+sqlite3/3.39.4: Downloaded recipe revision e05189805b17f2a54ada2845c5953ad7
+libmysqlclient/8.0.30: Not found in local cache, looking in remotes...
+libmysqlclient/8.0.30: Trying with 'conancenter'...
+Downloading conanmanifest.txt
+Downloading conanfile.py
+Downloading conan_export.tgz
+libmysqlclient/8.0.30: Downloaded recipe revision 9712af7b281a04e22154726a25778cdd
+zstd/1.5.2: Not found in local cache, looking in remotes...
+zstd/1.5.2: Trying with 'conancenter'...
+Downloading conanmanifest.txt
+Downloading conanfile.py
+Downloading conan_export.tgz
+zstd/1.5.2: Downloaded recipe revision 485dd9c1f9245f0f362730e8b8031a17
+lz4/1.9.4: Not found in local cache, looking in remotes...
+lz4/1.9.4: Trying with 'conancenter'...
+Downloading conanmanifest.txt
+Downloading conanfile.py
+Downloading conan_export.tgz
+lz4/1.9.4: Downloaded recipe revision 8699136f62681eeba3dc033f85cc63e2
+libpq/14.5: Not found in local cache, looking in remotes...
+libpq/14.5: Trying with 'conancenter'...
+Downloading conanmanifest.txt
+Downloading conanfile.py
+Downloading conan_export.tgz
+libpq/14.5: Downloaded recipe revision 6b90ea30336bf6daaa2233e9c59c3a0a
+odbc/2.3.11: Not found in local cache, looking in remotes...
+odbc/2.3.11: Trying with 'conancenter'...
+Downloading conanmanifest.txt
+Downloading conanfile.py
+Downloading conan_export.tgz
+odbc/2.3.11: Downloaded recipe revision 6f427d5a7e539e6b8c31aa1550447e07
+libtool/2.4.7: Not found in local cache, looking in remotes...
+libtool/2.4.7: Trying with 'conancenter'...
+Downloading conanmanifest.txt
+Downloading conanfile.py
+Downloading conan_export.tgz
+libtool/2.4.7: Downloaded recipe revision 0df56d1f5ae0b5c5c1bbb818c88247a8
+automake/1.16.5: Not found in local cache, looking in remotes...
+automake/1.16.5: Trying with 'conancenter'...
+Downloading conanmanifest.txt
+Downloading conanfile.py
+Downloading conan_export.tgz
+automake/1.16.5: Downloaded recipe revision 3fd8b734acc0986a1ee59f372f810410
+autoconf/2.71: Not found in local cache, looking in remotes...
+autoconf/2.71: Trying with 'conancenter'...
+Downloading conanmanifest.txt
+Downloading conanfile.py
+Downloading conan_export.tgz
+autoconf/2.71: Downloaded recipe revision 26514edc4aff5903f1ac1b22948288b6
+m4/1.4.19: Not found in local cache, looking in remotes...
+m4/1.4.19: Trying with 'conancenter'...
+Downloading conanmanifest.txt
+Downloading conanfile.py
+Downloading conan_export.tgz
+m4/1.4.19: Downloaded recipe revision ec4002e19cde0802f89204cab65f28f9
+libiconv/1.17: Not found in local cache, looking in remotes...
+libiconv/1.17: Trying with 'conancenter'...
+Downloading conanmanifest.txt
+Downloading conanfile.py
+Downloading conan_export.tgz
+libiconv/1.17: Downloaded recipe revision b4b03e13632b46074c247ee5b41b2f43
+xorg/system: Not found in local cache, looking in remotes...
+xorg/system: Trying with 'conancenter'...
+Downloading conanmanifest.txt
+Downloading conanfile.py
+xorg/system: Downloaded recipe revision d1f7fda88bfe6549f77ce9480c179e9e
+xkbcommon/1.4.1: Not found in local cache, looking in remotes...
+xkbcommon/1.4.1: Trying with 'conancenter'...
+Downloading conanmanifest.txt
+Downloading conanfile.py
+Downloading conan_export.tgz
+xkbcommon/1.4.1: Downloaded recipe revision c7e75ef76c5e01e4563a796d8be14315
+xkeyboard-config/system: Not found in local cache, looking in remotes...
+xkeyboard-config/system: Trying with 'conancenter'...
+Downloading conanmanifest.txt
+Downloading conanfile.py
+xkeyboard-config/system: Downloaded recipe revision 78c594079f8c51bb18bf27c6679cfe22
+libxml2/2.10.3: Not found in local cache, looking in remotes...
+libxml2/2.10.3: Trying with 'conancenter'...
+Downloading conanmanifest.txt
+Downloading conanfile.py
+Downloading conan_export.tgz
+libxml2/2.10.3: Downloaded recipe revision be59e8bbd17142deecdc123ae367c8b9
+wayland/1.21.0: Not found in local cache, looking in remotes...
+wayland/1.21.0: Trying with 'conancenter'...
+Downloading conanmanifest.txt
+Downloading conanfile.py
+Downloading conan_export.tgz
+wayland/1.21.0: Downloaded recipe revision 26e1f44fc9982260487c5ac326125224
+libffi/3.4.3: Not found in local cache, looking in remotes...
+libffi/3.4.3: Trying with 'conancenter'...
+Downloading conanmanifest.txt
+Downloading conanfile.py
+Downloading conan_export.tgz
+libffi/3.4.3: Downloaded recipe revision 243b9d95d41d726420b73b02a16282a4
+opengl/system: Not found in local cache, looking in remotes...
+opengl/system: Trying with 'conancenter'...
+Downloading conanmanifest.txt
+Downloading conanfile.py
+opengl/system: Downloaded recipe revision c1a405e400a8dfc2fd6f57134826a372
+md4c/0.4.8: Not found in local cache, looking in remotes...
+md4c/0.4.8: Trying with 'conancenter'...
+Downloading conanmanifest.txt
+Downloading conanfile.py
+Downloading conan_export.tgz
+md4c/0.4.8: Downloaded recipe revision 6724c3bee6da8d4d9a17d16d35756e9a
+meson/0.64.1: Not found in local cache, looking in remotes...
+meson/0.64.1: Trying with 'conancenter'...
+Downloading conanmanifest.txt
+Downloading conanfile.py
+Downloading conan_export.tgz
+meson/0.64.1: Downloaded recipe revision a9c15c33731ea9c9611affd6af9fad14
+ninja/1.11.1: Not found in local cache, looking in remotes...
+ninja/1.11.1: Trying with 'conancenter'...
+Downloading conanmanifest.txt
+Downloading conanfile.py
+Downloading conan_export.tgz
+ninja/1.11.1: Downloaded recipe revision a2f0b832705907016f336839f96963f8
+bison/3.8.2: Not found in local cache, looking in remotes...
+bison/3.8.2: Trying with 'conancenter'...
+Downloading conanmanifest.txt
+Downloading conanfile.py
+Downloading conan_export.tgz
+bison/3.8.2: Downloaded recipe revision 4737bf7aa60f4dd2ef9f04f8bbaf6172
+pkgconf/1.9.3: Not found in local cache, looking in remotes...
+pkgconf/1.9.3: Trying with 'conancenter'...
+Downloading conanmanifest.txt
+Downloading conanfile.py
+Downloading conan_export.tgz
+pkgconf/1.9.3: Downloaded recipe revision 02904517fb960fa340bee15bef847751
+wayland-protocols/1.27: Not found in local cache, looking in remotes...
+wayland-protocols/1.27: Trying with 'conancenter'...
+Downloading conanmanifest.txt
+Downloading conanfile.py
+Downloading conan_export.tgz
+wayland-protocols/1.27: Downloaded recipe revision bbe8fbc6c2cc727bafe5d2db3a49eb1c
+cmake/3.25.0: Not found in local cache, looking in remotes...
+cmake/3.25.0: Trying with 'conancenter'...
+Downloading conanmanifest.txt
+Downloading conanfile.py
+Downloading conan_export.tgz
+cmake/3.25.0: Downloaded recipe revision c7696529dc84fac6b7a811346286a04c
+ninja/1.11.0: Not found in local cache, looking in remotes...
+ninja/1.11.0: Trying with 'conancenter'...
+Downloading conanmanifest.txt
+Downloading conanfile.py
+Downloading conan_export.tgz
+ninja/1.11.0: Downloaded recipe revision 0dd362a5a265a8ade811608feba7655a
+ccache/4.6: Not found in local cache, looking in remotes...
+ccache/4.6: Trying with 'conancenter'...
+Downloading conanmanifest.txt
+Downloading conanfile.py
+Downloading conan_export.tgz
+ccache/4.6: Downloaded recipe revision 58fb8e382f9c31abf12a263c40203e70
+hiredis/1.0.2: Not found in local cache, looking in remotes...
+hiredis/1.0.2: Trying with 'conancenter'...
+Downloading conanmanifest.txt
+Downloading conanfile.py
+Downloading conan_export.tgz
+hiredis/1.0.2: Downloaded recipe revision d49667303cd18c8d2b4c089df6e57034
+swig/4.0.2: Not found in local cache, looking in remotes...
+swig/4.0.2: Trying with 'conancenter'...
+Downloading conanmanifest.txt
+Downloading conanfile.py
+Downloading conan_export.tgz
+swig/4.0.2: Downloaded recipe revision c8ac2221fa9ad3da54e2941e97371c87
+pcre/8.45: Not found in local cache, looking in remotes...
+pcre/8.45: Trying with 'conancenter'...
+Downloading conanmanifest.txt
+Downloading conanfile.py
+Downloading conan_export.tgz
+pcre/8.45: Downloaded recipe revision 7b541b65d8201ff59d07e9744921e08c
+cppcheck/2.7.5: Not found in local cache, looking in remotes...
+cppcheck/2.7.5: Trying with 'conancenter'...
+Downloading conanmanifest.txt
+Downloading conanfile.py
+Downloading conan_export.tgz
+cppcheck/2.7.5: Downloaded recipe revision dcec717ef15379d5381bd40fe6bb87eb
+z3/4.8.8: Not found in local cache, looking in remotes...
+z3/4.8.8: Trying with 'conancenter'...
+Downloading conanmanifest.txt
+Downloading conanfile.py
+Downloading conan_export.tgz
+z3/4.8.8: Downloaded recipe revision bbdeb8ab816227c5fd651ddc0df36ee8
+z3/4.8.8: z3 will build using gmp multiprecision implementation.
+gmp/6.2.1: Not found in local cache, looking in remotes...
+gmp/6.2.1: Trying with 'conancenter'...
+Downloading conanmanifest.txt
+Downloading conanfile.py
+Downloading conan_export.tgz
+gmp/6.2.1: Downloaded recipe revision 2011237c81178d014a4c08ae40cfe0cb
+conanfile.py (qt5Example/0.0.1): Installing package
+Requirements
+    autoconf/2.71 from 'conancenter' - Downloaded
+    automake/1.16.5 from 'conancenter' - Downloaded
+    brotli/1.0.9 from 'conancenter' - Downloaded
+    bzip2/1.0.8 from 'conancenter' - Downloaded
+    double-conversion/3.2.1 from 'conancenter' - Downloaded
+    expat/2.5.0 from 'conancenter' - Downloaded
+    fontconfig/2.13.93 from 'conancenter' - Downloaded
+    freetype/2.12.1 from 'conancenter' - Downloaded
+    icu/71.1 from 'conancenter' - Downloaded
+    libffi/3.4.3 from 'conancenter' - Downloaded
+    libiconv/1.17 from 'conancenter' - Downloaded
+    libjpeg/9e from 'conancenter' - Downloaded
+    libmysqlclient/8.0.30 from 'conancenter' - Downloaded
+    libpng/1.6.38 from 'conancenter' - Downloaded
+    libpq/14.5 from 'conancenter' - Downloaded
+    libtool/2.4.7 from 'conancenter' - Downloaded
+    libuuid/1.0.3 from 'conancenter' - Downloaded
+    libxml2/2.10.3 from 'conancenter' - Downloaded
+    lz4/1.9.4 from 'conancenter' - Downloaded
+    m4/1.4.19 from 'conancenter' - Downloaded
+    md4c/0.4.8 from 'conancenter' - Downloaded
+    odbc/2.3.11 from 'conancenter' - Downloaded
+    opengl/system from 'conancenter' - Downloaded
+    openssl/1.1.1s from 'conancenter' - Downloaded
+    pcre2/10.40 from 'conancenter' - Downloaded
+    qt/5.15.7 from 'conancenter' - Downloaded
+    sqlite3/3.39.4 from 'conancenter' - Downloaded
+    wayland/1.21.0 from 'conancenter' - Downloaded
+    xkbcommon/1.4.1 from 'conancenter' - Downloaded
+    xkeyboard-config/system from 'conancenter' - Downloaded
+    xorg/system from 'conancenter' - Downloaded
+    zlib/1.2.13 from 'conancenter' - Downloaded
+    zstd/1.5.2 from 'conancenter' - Downloaded
+Packages
+    autoconf/2.71:5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9 - Download
+    automake/1.16.5:258f6f05ca54813b3d7180161753df7f9ccf7e1d - Download
+    brotli/1.0.9:224dcd91ed677bf7e341484d95860c4bc8fdde41 - Download
+    bzip2/1.0.8:a5875aed3fc7ae8dd0488f7e5e99acbc480d721d - Download
+    double-conversion/3.2.1:56e0cf6d16ee57367a0661ab743f4e43b29223f8 - Download
+    expat/2.5.0:9a29d10b97b42a53958ce2a89aa2fe8027567806 - Download
+    fontconfig/2.13.93:d8858e187cb415894861d32e891e69d5d34c2e1a - Download
+    freetype/2.12.1:5cb6fe105f36831a2c2b03ab53c73974c359b192 - Download
+    icu/71.1:e9d2554556d77c2b930cb43fee1cf1b2036c86a7 - Download
+    libffi/3.4.3:1d877a3df840030e6a8abb74c5ffb9088d08b47a - Download
+    libiconv/1.17:1d877a3df840030e6a8abb74c5ffb9088d08b47a - Download
+    libjpeg/9e:1d877a3df840030e6a8abb74c5ffb9088d08b47a - Download
+    libmysqlclient/8.0.30:f31d4da5e947048a8c7b7026c1be756e027bc874 - Download
+    libpng/1.6.38:c5f06ea0d3a7d6f35f03d832e3609fcc34e36a44 - Download
+    libpq/14.5:1d877a3df840030e6a8abb74c5ffb9088d08b47a - Download
+    libtool/2.4.7:9a742fb357948de0898e8481664b356888dece9e - Download
+    libuuid/1.0.3:1d877a3df840030e6a8abb74c5ffb9088d08b47a - Download
+    libxml2/2.10.3:ef73374486ad1894a99815dc78ddec5b517ae320 - Download
+    lz4/1.9.4:1d877a3df840030e6a8abb74c5ffb9088d08b47a - Download
+    m4/1.4.19:24647d9fe8ec489125dfbae4b3ebefaf7581674c - Download
+    md4c/0.4.8:1f0857ade7461814b59ab8670ee33ac1589f95f3 - Download
+    odbc/2.3.11:33977e77d120903b0e4d3c64db24335f6059c207 - Download
+    opengl/system:5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9 - Download
+    openssl/1.1.1s:1d877a3df840030e6a8abb74c5ffb9088d08b47a - Download
+    pcre2/10.40:63e2e082db68514d73a3597341e8a175e002e762 - Download
+    qt/5.15.7:1e580a6a97e47eeab4ee5c6f96aa66f513b17ffe - Build
+    sqlite3/3.39.4:a0e6c9e5a908f3e3d4654a1dc1fc1f1cbfb986c8 - Download
+    wayland/1.21.0:e03b7a95afb3f8592db7fbbfc064dda3c6b2962a - Download
+    xkbcommon/1.4.1:32f30edd12cd947a8e026711c233844c6677ddbe - Build
+    xkeyboard-config/system:5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9 - Download
+    xorg/system:5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9 - Download
+    zlib/1.2.13:1d877a3df840030e6a8abb74c5ffb9088d08b47a - Download
+    zstd/1.5.2:3b258fdc811e95a086ce28938b49155b5c0c91be - Download
+Build requirements
+    bison/3.8.2 from 'conancenter' - Downloaded
+    bzip2/1.0.8 from 'conancenter' - Cache
+    ccache/4.6 from 'conancenter' - Downloaded
+    cmake/3.25.0 from 'conancenter' - Downloaded
+    cppcheck/2.7.5 from 'conancenter' - Downloaded
+    expat/2.5.0 from 'conancenter' - Cache
+    gmp/6.2.1 from 'conancenter' - Downloaded
+    hiredis/1.0.2 from 'conancenter' - Downloaded
+    libffi/3.4.3 from 'conancenter' - Cache
+    libiconv/1.17 from 'conancenter' - Cache
+    libxml2/2.10.3 from 'conancenter' - Cache
+    m4/1.4.19 from 'conancenter' - Cache
+    meson/0.64.1 from 'conancenter' - Downloaded
+    ninja/1.11.0 from 'conancenter' - Downloaded
+    ninja/1.11.1 from 'conancenter' - Downloaded
+    openssl/1.1.1s from 'conancenter' - Cache
+    pcre/8.45 from 'conancenter' - Downloaded
+    pkgconf/1.9.3 from 'conancenter' - Downloaded
+    swig/4.0.2 from 'conancenter' - Downloaded
+    wayland/1.21.0 from 'conancenter' - Cache
+    wayland-protocols/1.27 from 'conancenter' - Downloaded
+    z3/4.8.8 from 'conancenter' - Downloaded
+    zlib/1.2.13 from 'conancenter' - Cache
+    zstd/1.5.2 from 'conancenter' - Cache
+Build requirements packages
+    bison/3.8.2:30a96fe53c3e98a98796c7cef11032c83754d473 - Download
+    bzip2/1.0.8:a5875aed3fc7ae8dd0488f7e5e99acbc480d721d - Download
+    ccache/4.6:4e9a94dd29b7acfa5907f316bf127912ba258d11 - Download
+    cmake/3.25.0:5c09c752508b674ca5cb1f2d327b5a2d582866c8 - Download
+    cppcheck/2.7.5:15b4d99e258c25c2127264c9648f880e2c8d58d0 - Download
+    expat/2.5.0:9a29d10b97b42a53958ce2a89aa2fe8027567806 - Download
+    gmp/6.2.1:4c8a9fcac580515a995c6103c864b8664dadc528 - Download
+    hiredis/1.0.2:1d877a3df840030e6a8abb74c5ffb9088d08b47a - Download
+    libffi/3.4.3:1d877a3df840030e6a8abb74c5ffb9088d08b47a - Download
+    libiconv/1.17:1d877a3df840030e6a8abb74c5ffb9088d08b47a - Download
+    libxml2/2.10.3:ef73374486ad1894a99815dc78ddec5b517ae320 - Download
+    m4/1.4.19:24647d9fe8ec489125dfbae4b3ebefaf7581674c - Download
+    meson/0.64.1:5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9 - Download
+    ninja/1.11.0:24647d9fe8ec489125dfbae4b3ebefaf7581674c - Download
+    ninja/1.11.1:24647d9fe8ec489125dfbae4b3ebefaf7581674c - Download
+    openssl/1.1.1s:1d877a3df840030e6a8abb74c5ffb9088d08b47a - Download
+    pcre/8.45:95c3c559337923e10e8b01075ae10c7bdcebf915 - Download
+    pkgconf/1.9.3:24647d9fe8ec489125dfbae4b3ebefaf7581674c - Download
+    swig/4.0.2:ecb2d71ae4bad3b51dade00ec89140273402b5d7 - Download
+    wayland/1.21.0:e03b7a95afb3f8592db7fbbfc064dda3c6b2962a - Download
+    wayland-protocols/1.27:5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9 - Download
+    z3/4.8.8:861afbc8f7bb8c413fa793eb0f53ad149dc8fcb6 - Download
+    zlib/1.2.13:1d877a3df840030e6a8abb74c5ffb9088d08b47a - Download
+    zstd/1.5.2:3b258fdc811e95a086ce28938b49155b5c0c91be - Download
+
+Installing (downloading, building) binaries...
+brotli/1.0.9: Retrieving package 224dcd91ed677bf7e341484d95860c4bc8fdde41 from remote 'conancenter' 
+Downloading conanmanifest.txt
+Downloading conaninfo.txt
+Downloading conan_package.tgz
+brotli/1.0.9: Package installed 224dcd91ed677bf7e341484d95860c4bc8fdde41
+brotli/1.0.9: Downloaded package revision fc2423babbc383b04419caad2d0f6973
+bzip2/1.0.8: Retrieving package a5875aed3fc7ae8dd0488f7e5e99acbc480d721d from remote 'conancenter' 
+Downloading conanmanifest.txt
+Downloading conaninfo.txt
+Downloading conan_package.tgz
+bzip2/1.0.8: Package installed a5875aed3fc7ae8dd0488f7e5e99acbc480d721d
+bzip2/1.0.8: Downloaded package revision c646203eb9ce911059c6e42b086afc76
+double-conversion/3.2.1: Retrieving package 56e0cf6d16ee57367a0661ab743f4e43b29223f8 from remote 'conancenter' 
+Downloading conanmanifest.txt
+Downloading conaninfo.txt
+Downloading conan_package.tgz
+double-conversion/3.2.1: Package installed 56e0cf6d16ee57367a0661ab743f4e43b29223f8
+double-conversion/3.2.1: Downloaded package revision 44272d30899f105a798bd3dfcc9208ba
+expat/2.5.0: Retrieving package 9a29d10b97b42a53958ce2a89aa2fe8027567806 from remote 'conancenter' 
+Downloading conanmanifest.txt
+Downloading conaninfo.txt
+Downloading conan_package.tgz
+expat/2.5.0: Package installed 9a29d10b97b42a53958ce2a89aa2fe8027567806
+expat/2.5.0: Downloaded package revision 033f1063232a2c05f7f278f62527f4a8
+gmp/6.2.1: Retrieving package 4c8a9fcac580515a995c6103c864b8664dadc528 from remote 'conancenter' 
+Downloading conanmanifest.txt
+Downloading conaninfo.txt
+Downloading conan_package.tgz
+gmp/6.2.1: Package installed 4c8a9fcac580515a995c6103c864b8664dadc528
+gmp/6.2.1: Downloaded package revision 7f9e2f89f16a00ca6fb1de967681daa3
+hiredis/1.0.2: Retrieving package 1d877a3df840030e6a8abb74c5ffb9088d08b47a from remote 'conancenter' 
+Downloading conanmanifest.txt
+Downloading conaninfo.txt
+Downloading conan_package.tgz
+hiredis/1.0.2: Package installed 1d877a3df840030e6a8abb74c5ffb9088d08b47a
+hiredis/1.0.2: Downloaded package revision e08c54d8f1ed2f4511291c4d3f9c17e5
+icu/71.1: Retrieving package e9d2554556d77c2b930cb43fee1cf1b2036c86a7 from remote 'conancenter' 
+Downloading conanmanifest.txt
+Downloading conaninfo.txt
+Downloading conan_package.tgz
+icu/71.1: Package installed e9d2554556d77c2b930cb43fee1cf1b2036c86a7
+icu/71.1: Downloaded package revision f15bcaece37248b27bbd74be0b20e63a
+libffi/3.4.3: Retrieving package 1d877a3df840030e6a8abb74c5ffb9088d08b47a from remote 'conancenter' 
+Downloading conanmanifest.txt
+Downloading conaninfo.txt
+Downloading conan_package.tgz
+libffi/3.4.3: Package installed 1d877a3df840030e6a8abb74c5ffb9088d08b47a
+libffi/3.4.3: Downloaded package revision 0eb4f620b15d968f6841e70d829d0132
+libiconv/1.17: Retrieving package 1d877a3df840030e6a8abb74c5ffb9088d08b47a from remote 'conancenter' 
+Downloading conanmanifest.txt
+Downloading conaninfo.txt
+Downloading conan_package.tgz
+libiconv/1.17: Package installed 1d877a3df840030e6a8abb74c5ffb9088d08b47a
+libiconv/1.17: Downloaded package revision 1c6d16636c9f3255797a06f9ab99c5ae
+libjpeg/9e: Retrieving package 1d877a3df840030e6a8abb74c5ffb9088d08b47a from remote 'conancenter' 
+Downloading conanmanifest.txt
+Downloading conaninfo.txt
+Downloading conan_package.tgz
+libjpeg/9e: Package installed 1d877a3df840030e6a8abb74c5ffb9088d08b47a
+libjpeg/9e: Downloaded package revision 488f4aff83ed37109c7d184275b683fc
+libpq/14.5: Retrieving package 1d877a3df840030e6a8abb74c5ffb9088d08b47a from remote 'conancenter' 
+Downloading conanmanifest.txt
+Downloading conaninfo.txt
+Downloading conan_package.tgz
+libpq/14.5: Package installed 1d877a3df840030e6a8abb74c5ffb9088d08b47a
+libpq/14.5: Downloaded package revision b19b12961f6d2e1e97b2bf0e23401976
+libuuid/1.0.3: Retrieving package 1d877a3df840030e6a8abb74c5ffb9088d08b47a from remote 'conancenter' 
+Downloading conanmanifest.txt
+Downloading conaninfo.txt
+Downloading conan_package.tgz
+libuuid/1.0.3: Package installed 1d877a3df840030e6a8abb74c5ffb9088d08b47a
+libuuid/1.0.3: Downloaded package revision e13aaf6bf102a9ecec51919c2c3f4fcf
+lz4/1.9.4: Retrieving package 1d877a3df840030e6a8abb74c5ffb9088d08b47a from remote 'conancenter' 
+Downloading conanmanifest.txt
+Downloading conaninfo.txt
+Downloading conan_package.tgz
+lz4/1.9.4: Package installed 1d877a3df840030e6a8abb74c5ffb9088d08b47a
+lz4/1.9.4: Downloaded package revision bb17c259b1bf903a62476bfaa67042e1
+m4/1.4.19: Retrieving package 24647d9fe8ec489125dfbae4b3ebefaf7581674c from remote 'conancenter' 
+Downloading conanmanifest.txt
+Downloading conaninfo.txt
+Downloading conan_package.tgz
+m4/1.4.19: Package installed 24647d9fe8ec489125dfbae4b3ebefaf7581674c
+m4/1.4.19: Downloaded package revision d194d0caa479d1b767c74e760eb97965
+md4c/0.4.8: Retrieving package 1f0857ade7461814b59ab8670ee33ac1589f95f3 from remote 'conancenter' 
+Downloading conanmanifest.txt
+Downloading conaninfo.txt
+Downloading conan_package.tgz
+md4c/0.4.8: Package installed 1f0857ade7461814b59ab8670ee33ac1589f95f3
+md4c/0.4.8: Downloaded package revision dee5493439404c5642dc2e6d2c89f214
+ninja/1.11.0: Retrieving package 24647d9fe8ec489125dfbae4b3ebefaf7581674c from remote 'conancenter' 
+Downloading conanmanifest.txt
+Downloading conaninfo.txt
+Downloading conan_package.tgz
+ninja/1.11.0: Package installed 24647d9fe8ec489125dfbae4b3ebefaf7581674c
+ninja/1.11.0: Downloaded package revision 7757f230e085eede1f3395213aef400f
+ninja/1.11.1: Retrieving package 24647d9fe8ec489125dfbae4b3ebefaf7581674c from remote 'conancenter' 
+Downloading conanmanifest.txt
+Downloading conaninfo.txt
+Downloading conan_package.tgz
+ninja/1.11.1: Package installed 24647d9fe8ec489125dfbae4b3ebefaf7581674c
+ninja/1.11.1: Downloaded package revision d894345ae9996c9b97f1cb4150051c25
+opengl/system: Retrieving package 5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9 from remote 'conancenter' 
+Downloading conanmanifest.txt
+Downloading conaninfo.txt
+Downloading conan_package.tgz
+opengl/system: Package installed 5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9
+opengl/system: Downloaded package revision f1384bfff82e5a9f322cc1534313eb29
+openssl/1.1.1s: Retrieving package 1d877a3df840030e6a8abb74c5ffb9088d08b47a from remote 'conancenter' 
+Downloading conanmanifest.txt
+Downloading conaninfo.txt
+Downloading conan_package.tgz
+openssl/1.1.1s: Package installed 1d877a3df840030e6a8abb74c5ffb9088d08b47a
+openssl/1.1.1s: Downloaded package revision 49edcbf582d8fd6751a887ac1b2dc9ee
+pkgconf/1.9.3: Retrieving package 24647d9fe8ec489125dfbae4b3ebefaf7581674c from remote 'conancenter' 
+Downloading conanmanifest.txt
+Downloading conaninfo.txt
+Downloading conan_package.tgz
+pkgconf/1.9.3: Package installed 24647d9fe8ec489125dfbae4b3ebefaf7581674c
+pkgconf/1.9.3: Downloaded package revision 389abd2af33a0a664a53911c06f337f2
+sqlite3/3.39.4: Retrieving package a0e6c9e5a908f3e3d4654a1dc1fc1f1cbfb986c8 from remote 'conancenter' 
+Downloading conanmanifest.txt
+Downloading conaninfo.txt
+Downloading conan_package.tgz
+sqlite3/3.39.4: Package installed a0e6c9e5a908f3e3d4654a1dc1fc1f1cbfb986c8
+sqlite3/3.39.4: Downloaded package revision 6b7ad221249326e537dde08172eb9245
+wayland-protocols/1.27: Retrieving package 5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9 from remote 'conancenter' 
+Downloading conanmanifest.txt
+Downloading conaninfo.txt
+Downloading conan_package.tgz
+wayland-protocols/1.27: Package installed 5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9
+wayland-protocols/1.27: Downloaded package revision 2ddd00e3037e9689b168fd7bc788dec7
+xkeyboard-config/system: Retrieving package 5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9 from remote 'conancenter' 
+Downloading conanmanifest.txt
+Downloading conaninfo.txt
+Downloading conan_package.tgz
+xkeyboard-config/system: Package installed 5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9
+xkeyboard-config/system: Downloaded package revision 498022327a312b25b0dc7422fb308c6f
+xorg/system: Retrieving package 5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9 from remote 'conancenter' 
+Downloading conanmanifest.txt
+Downloading conaninfo.txt
+Downloading conan_package.tgz
+xorg/system: Package installed 5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9
+xorg/system: Downloaded package revision 65cc5f5eface967a07870ba57628a116
+zlib/1.2.13: Retrieving package 1d877a3df840030e6a8abb74c5ffb9088d08b47a from remote 'conancenter' 
+Downloading conanmanifest.txt
+Downloading conaninfo.txt
+Downloading conan_package.tgz
+zlib/1.2.13: Package installed 1d877a3df840030e6a8abb74c5ffb9088d08b47a
+zlib/1.2.13: Downloaded package revision b7bfcb69a497a9ffb5a039df8fe78ddd
+zstd/1.5.2: Retrieving package 3b258fdc811e95a086ce28938b49155b5c0c91be from remote 'conancenter' 
+Downloading conanmanifest.txt
+Downloading conaninfo.txt
+Downloading conan_package.tgz
+zstd/1.5.2: Package installed 3b258fdc811e95a086ce28938b49155b5c0c91be
+zstd/1.5.2: Downloaded package revision 02096bdd1ba871b8437d5d9d14fbfb59
+autoconf/2.71: Retrieving package 5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9 from remote 'conancenter' 
+Downloading conanmanifest.txt
+Downloading conaninfo.txt
+Downloading conan_package.tgz
+autoconf/2.71: Package installed 5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9
+autoconf/2.71: Downloaded package revision 4a39e37f7a41b87df26ca40794260c4b
+bison/3.8.2: Retrieving package 30a96fe53c3e98a98796c7cef11032c83754d473 from remote 'conancenter' 
+Downloading conanmanifest.txt
+Downloading conaninfo.txt
+Downloading conan_package.tgz
+bison/3.8.2: Package installed 30a96fe53c3e98a98796c7cef11032c83754d473
+bison/3.8.2: Downloaded package revision c2947d6304ee2469b6223423d85f89ce
+ccache/4.6: Retrieving package 4e9a94dd29b7acfa5907f316bf127912ba258d11 from remote 'conancenter' 
+Downloading conanmanifest.txt
+Downloading conaninfo.txt
+Downloading conan_package.tgz
+ccache/4.6: Package installed 4e9a94dd29b7acfa5907f316bf127912ba258d11
+ccache/4.6: Downloaded package revision 11cefb9d34432bd6174faec04575d3fb
+cmake/3.25.0: Retrieving package 5c09c752508b674ca5cb1f2d327b5a2d582866c8 from remote 'conancenter' 
+Downloading conanmanifest.txt
+Downloading conaninfo.txt
+Downloading conan_package.tgz
+cmake/3.25.0: Package installed 5c09c752508b674ca5cb1f2d327b5a2d582866c8
+cmake/3.25.0: Downloaded package revision d94487e1a107a8c4ca98c2ff543be927
+libmysqlclient/8.0.30: Retrieving package f31d4da5e947048a8c7b7026c1be756e027bc874 from remote 'conancenter' 
+Downloading conanmanifest.txt
+Downloading conaninfo.txt
+Downloading conan_package.tgz
+libmysqlclient/8.0.30: Package installed f31d4da5e947048a8c7b7026c1be756e027bc874
+libmysqlclient/8.0.30: Downloaded package revision 04263fb0008c2b47c006f7d031863052
+libpng/1.6.38: Retrieving package c5f06ea0d3a7d6f35f03d832e3609fcc34e36a44 from remote 'conancenter' 
+Downloading conanmanifest.txt
+Downloading conaninfo.txt
+Downloading conan_package.tgz
+libpng/1.6.38: Package installed c5f06ea0d3a7d6f35f03d832e3609fcc34e36a44
+libpng/1.6.38: Downloaded package revision 73a7b00ee05a54d9704162283b8aea58
+libxml2/2.10.3: Retrieving package ef73374486ad1894a99815dc78ddec5b517ae320 from remote 'conancenter' 
+Downloading conanmanifest.txt
+Downloading conaninfo.txt
+Downloading conan_package.tgz
+libxml2/2.10.3: Package installed ef73374486ad1894a99815dc78ddec5b517ae320
+libxml2/2.10.3: Downloaded package revision e92b3eeab916db25cb4afef3d714afcb
+meson/0.64.1: Retrieving package 5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9 from remote 'conancenter' 
+Downloading conanmanifest.txt
+Downloading conaninfo.txt
+Downloading conan_package.tgz
+meson/0.64.1: Package installed 5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9
+meson/0.64.1: Downloaded package revision ea7afd2e882e1bb6881a8f21888b0ac2
+pcre/8.45: Retrieving package 95c3c559337923e10e8b01075ae10c7bdcebf915 from remote 'conancenter' 
+Downloading conanmanifest.txt
+Downloading conaninfo.txt
+Downloading conan_package.tgz
+pcre/8.45: Package installed 95c3c559337923e10e8b01075ae10c7bdcebf915
+pcre/8.45: Downloaded package revision d88c2359ff2e55f7640afac9453768ad
+pcre2/10.40: Retrieving package 63e2e082db68514d73a3597341e8a175e002e762 from remote 'conancenter' 
+Downloading conanmanifest.txt
+Downloading conaninfo.txt
+Downloading conan_package.tgz
+pcre2/10.40: Package installed 63e2e082db68514d73a3597341e8a175e002e762
+pcre2/10.40: Downloaded package revision 4205dd6ab91a2fc940936a0d1c2061e3
+z3/4.8.8: Retrieving package 861afbc8f7bb8c413fa793eb0f53ad149dc8fcb6 from remote 'conancenter' 
+Downloading conanmanifest.txt
+Downloading conaninfo.txt
+Downloading conan_package.tgz
+z3/4.8.8: Package installed 861afbc8f7bb8c413fa793eb0f53ad149dc8fcb6
+z3/4.8.8: Downloaded package revision a93012600dfb109da8cf2a1b30548ad3
+automake/1.16.5: Retrieving package 258f6f05ca54813b3d7180161753df7f9ccf7e1d from remote 'conancenter' 
+Downloading conanmanifest.txt
+Downloading conaninfo.txt
+Downloading conan_package.tgz
+automake/1.16.5: Package installed 258f6f05ca54813b3d7180161753df7f9ccf7e1d
+automake/1.16.5: Downloaded package revision f133c5edef262f6eb4271a8536aafa57
+cppcheck/2.7.5: Retrieving package 15b4d99e258c25c2127264c9648f880e2c8d58d0 from remote 'conancenter' 
+Downloading conanmanifest.txt
+Downloading conaninfo.txt
+Downloading conan_package.tgz
+cppcheck/2.7.5: Package installed 15b4d99e258c25c2127264c9648f880e2c8d58d0
+cppcheck/2.7.5: Downloaded package revision f269ed86165d8725f0073b44b48dd85f
+freetype/2.12.1: Retrieving package 5cb6fe105f36831a2c2b03ab53c73974c359b192 from remote 'conancenter' 
+Downloading conanmanifest.txt
+Downloading conaninfo.txt
+Downloading conan_package.tgz
+freetype/2.12.1: Package installed 5cb6fe105f36831a2c2b03ab53c73974c359b192
+freetype/2.12.1: Downloaded package revision 1237941397fcfbe1bed8da5a57098072
+swig/4.0.2: Retrieving package ecb2d71ae4bad3b51dade00ec89140273402b5d7 from remote 'conancenter' 
+Downloading conanmanifest.txt
+Downloading conaninfo.txt
+Downloading conan_package.tgz
+swig/4.0.2: Package installed ecb2d71ae4bad3b51dade00ec89140273402b5d7
+swig/4.0.2: Downloaded package revision f80bbd7e1361432ce8149635e1a99260
+wayland/1.21.0: Retrieving package e03b7a95afb3f8592db7fbbfc064dda3c6b2962a from remote 'conancenter' 
+Downloading conanmanifest.txt
+Downloading conaninfo.txt
+Downloading conan_package.tgz
+wayland/1.21.0: Package installed e03b7a95afb3f8592db7fbbfc064dda3c6b2962a
+wayland/1.21.0: Downloaded package revision fa4ae83e1dc43cec83e128c1dd0a9e24
+fontconfig/2.13.93: Retrieving package d8858e187cb415894861d32e891e69d5d34c2e1a from remote 'conancenter' 
+Downloading conanmanifest.txt
+Downloading conaninfo.txt
+Downloading conan_package.tgz
+fontconfig/2.13.93: Package installed d8858e187cb415894861d32e891e69d5d34c2e1a
+fontconfig/2.13.93: Downloaded package revision 044a1b491fbc35c64ba7f436982e8048
+libtool/2.4.7: Retrieving package 9a742fb357948de0898e8481664b356888dece9e from remote 'conancenter' 
+Downloading conanmanifest.txt
+Downloading conaninfo.txt
+Downloading conan_package.tgz
+libtool/2.4.7: Package installed 9a742fb357948de0898e8481664b356888dece9e
+libtool/2.4.7: Downloaded package revision f5dc5554de118ee30233abe6867cd2ed
+odbc/2.3.11: Retrieving package 33977e77d120903b0e4d3c64db24335f6059c207 from remote 'conancenter' 
+Downloading conanmanifest.txt
+Downloading conaninfo.txt
+Downloading conan_package.tgz
+odbc/2.3.11: Package installed 33977e77d120903b0e4d3c64db24335f6059c207
+odbc/2.3.11: Downloaded package revision 6db7239896b93f0890fb77930e1ccf30
+m4/1.4.19: Appending PATH environment variable: /home/conan/.conan/data/m4/1.4.19/_/_/package/24647d9fe8ec489125dfbae4b3ebefaf7581674c/bin
+m4/1.4.19: Appending PATH environment variable: /home/conan/.conan/data/m4/1.4.19/_/_/package/24647d9fe8ec489125dfbae4b3ebefaf7581674c/bin
+md4c/0.4.8: Appending PATH environment variable: /home/conan/.conan/data/md4c/0.4.8/_/_/package/1f0857ade7461814b59ab8670ee33ac1589f95f3/bin
+dpkg-query: no packages found matching libgl1-mesa-dev
+Get:1 http://ppa.launchpad.net/git-core/ppa/ubuntu xenial InRelease [20.8 kB]
+Get:2 http://security.ubuntu.com/ubuntu xenial-security InRelease [99.8 kB]
+Get:3 http://ppa.launchpad.net/git-core/ppa/ubuntu xenial/main amd64 Packages [3,529 B]
+Get:4 http://archive.ubuntu.com/ubuntu xenial InRelease [247 kB]
+Get:5 http://security.ubuntu.com/ubuntu xenial-security/main amd64 Packages [2,051 kB]
+Get:6 http://security.ubuntu.com/ubuntu xenial-security/restricted amd64 Packages [15.9 kB]
+Get:7 http://security.ubuntu.com/ubuntu xenial-security/universe amd64 Packages [984 kB]
+Get:8 http://security.ubuntu.com/ubuntu xenial-security/multiverse amd64 Packages [8,820 B]
+Get:9 http://archive.ubuntu.com/ubuntu xenial-updates InRelease [99.8 kB]
+Get:10 http://archive.ubuntu.com/ubuntu xenial-backports InRelease [97.4 kB]
+Get:11 http://archive.ubuntu.com/ubuntu xenial/main amd64 Packages [1,558 kB]
+Get:12 http://archive.ubuntu.com/ubuntu xenial/restricted amd64 Packages [14.1 kB]
+Get:13 http://archive.ubuntu.com/ubuntu xenial/universe amd64 Packages [9,827 kB]
+Get:14 http://archive.ubuntu.com/ubuntu xenial/multiverse amd64 Packages [176 kB]
+Get:15 http://archive.ubuntu.com/ubuntu xenial-updates/main amd64 Packages [2,560 kB]
+Get:16 http://archive.ubuntu.com/ubuntu xenial-updates/restricted amd64 Packages [16.4 kB]
+Get:17 http://archive.ubuntu.com/ubuntu xenial-updates/universe amd64 Packages [1,544 kB]
+Get:18 http://archive.ubuntu.com/ubuntu xenial-updates/multiverse amd64 Packages [26.2 kB]
+Get:19 http://archive.ubuntu.com/ubuntu xenial-backports/main amd64 Packages [10.9 kB]
+Get:20 http://archive.ubuntu.com/ubuntu xenial-backports/universe amd64 Packages [12.7 kB]
+Fetched 19.4 MB in 2s (7,869 kB/s)
+Reading package lists...
+Reading package lists...
+Building dependency tree...
+Reading state information...
+The following additional packages will be installed:
+  libbsd0 libdrm-amdgpu1 libdrm-common libdrm-dev libdrm-intel1
+  libdrm-nouveau2 libdrm-radeon1 libdrm2 libedit2 libelf1 libgl1-mesa-dri
+  libgl1-mesa-glx libglapi-mesa libllvm6.0 libpciaccess0 libpthread-stubs0-dev
+  libsensors4 libx11-6 libx11-data libx11-dev libx11-xcb-dev libx11-xcb1
+  libxau-dev libxau6 libxcb-dri2-0 libxcb-dri2-0-dev libxcb-dri3-0
+  libxcb-dri3-dev libxcb-glx0 libxcb-glx0-dev libxcb-present-dev
+  libxcb-present0 libxcb-randr0 libxcb-randr0-dev libxcb-render0
+  libxcb-render0-dev libxcb-shape0 libxcb-shape0-dev libxcb-sync-dev
+  libxcb-sync1 libxcb-xfixes0 libxcb-xfixes0-dev libxcb1 libxcb1-dev
+  libxdamage-dev libxdamage1 libxdmcp-dev libxdmcp6 libxext-dev libxext6
+  libxfixes-dev libxfixes3 libxshmfence-dev libxshmfence1 libxxf86vm-dev
+  libxxf86vm1 mesa-common-dev x11proto-core-dev x11proto-damage-dev
+  x11proto-dri2-dev x11proto-fixes-dev x11proto-gl-dev x11proto-input-dev
+  x11proto-kb-dev x11proto-xext-dev x11proto-xf86vidmode-dev
+  xorg-sgml-doctools xtrans-dev
+Suggested packages:
+  pciutils lm-sensors libxcb-doc libxext-doc
+Recommended packages:
+  libtxc-dxtn-s2tc | libtxc-dxtn-s2tc0 | libtxc-dxtn0 libx11-doc
+The following NEW packages will be installed:
+  libbsd0 libdrm-amdgpu1 libdrm-common libdrm-dev libdrm-intel1
+  libdrm-nouveau2 libdrm-radeon1 libdrm2 libedit2 libelf1 libgl1-mesa-dev
+  libgl1-mesa-dri libgl1-mesa-glx libglapi-mesa libllvm6.0 libpciaccess0
+  libpthread-stubs0-dev libsensors4 libx11-6 libx11-data libx11-dev
+  libx11-xcb-dev libx11-xcb1 libxau-dev libxau6 libxcb-dri2-0
+  libxcb-dri2-0-dev libxcb-dri3-0 libxcb-dri3-dev libxcb-glx0 libxcb-glx0-dev
+  libxcb-present-dev libxcb-present0 libxcb-randr0 libxcb-randr0-dev
+  libxcb-render0 libxcb-render0-dev libxcb-shape0 libxcb-shape0-dev
+  libxcb-sync-dev libxcb-sync1 libxcb-xfixes0 libxcb-xfixes0-dev libxcb1
+  libxcb1-dev libxdamage-dev libxdamage1 libxdmcp-dev libxdmcp6 libxext-dev
+  libxext6 libxfixes-dev libxfixes3 libxshmfence-dev libxshmfence1
+  libxxf86vm-dev libxxf86vm1 mesa-common-dev x11proto-core-dev
+  x11proto-damage-dev x11proto-dri2-dev x11proto-fixes-dev x11proto-gl-dev
+  x11proto-input-dev x11proto-kb-dev x11proto-xext-dev
+  x11proto-xf86vidmode-dev xorg-sgml-doctools xtrans-dev
+0 upgraded, 69 newly installed, 0 to remove and 2 not upgraded.
+Need to get 24.5 MB of archives.
+After this operation, 224 MB of additional disk space will be used.
+Get:1 http://archive.ubuntu.com/ubuntu xenial/main amd64 libxau6 amd64 1:1.0.8-1 [8,376 B]
+Get:2 http://archive.ubuntu.com/ubuntu xenial/main amd64 libxdmcp6 amd64 1:1.1.2-1.1 [11.0 kB]
+Get:3 http://archive.ubuntu.com/ubuntu xenial/main amd64 libxcb1 amd64 1.11.1-1ubuntu1 [40.0 kB]
+Get:4 http://archive.ubuntu.com/ubuntu xenial-updates/main amd64 libx11-data all 2:1.6.3-1ubuntu2.2 [114 kB]
+Get:5 http://archive.ubuntu.com/ubuntu xenial-updates/main amd64 libx11-6 amd64 2:1.6.3-1ubuntu2.2 [572 kB]
+Get:6 http://archive.ubuntu.com/ubuntu xenial/main amd64 libxext6 amd64 2:1.3.3-1 [29.4 kB]
+Get:7 http://archive.ubuntu.com/ubuntu xenial/main amd64 libxdamage1 amd64 1:1.1.4-2 [6,946 B]
+Get:8 http://archive.ubuntu.com/ubuntu xenial/main amd64 libxfixes3 amd64 1:5.0.1-2 [11.1 kB]
+Get:9 http://archive.ubuntu.com/ubuntu xenial/main amd64 libxshmfence1 amd64 1.2-1 [5,042 B]
+Get:10 http://archive.ubuntu.com/ubuntu xenial/main amd64 libxxf86vm1 amd64 1:1.1.4-1 [10.6 kB]
+Get:11 http://archive.ubuntu.com/ubuntu xenial-updates/main amd64 libbsd0 amd64 0.8.2-1ubuntu0.1 [42.0 kB]
+Get:12 http://archive.ubuntu.com/ubuntu xenial-updates/main amd64 libdrm-common all 2.4.91-2~16.04.1 [4,764 B]
+Get:13 http://archive.ubuntu.com/ubuntu xenial-updates/main amd64 libdrm2 amd64 2.4.91-2~16.04.1 [30.8 kB]
+Get:14 http://archive.ubuntu.com/ubuntu xenial/main amd64 libedit2 amd64 3.1-20150325-1ubuntu2 [76.5 kB]
+Get:15 http://archive.ubuntu.com/ubuntu xenial-updates/main amd64 libelf1 amd64 0.165-3ubuntu1.2 [43.5 kB]
+Get:16 http://archive.ubuntu.com/ubuntu xenial-updates/main amd64 libdrm-amdgpu1 amd64 2.4.91-2~16.04.1 [18.9 kB]
+Get:17 http://archive.ubuntu.com/ubuntu xenial/main amd64 libpciaccess0 amd64 0.13.4-1 [18.1 kB]
+Get:18 http://archive.ubuntu.com/ubuntu xenial-updates/main amd64 libdrm-intel1 amd64 2.4.91-2~16.04.1 [59.9 kB]
+Get:19 http://archive.ubuntu.com/ubuntu xenial-updates/main amd64 libdrm-radeon1 amd64 2.4.91-2~16.04.1 [21.5 kB]
+Get:20 http://archive.ubuntu.com/ubuntu xenial-updates/main amd64 libdrm-nouveau2 amd64 2.4.91-2~16.04.1 [16.3 kB]
+Get:21 http://archive.ubuntu.com/ubuntu xenial-updates/main amd64 libdrm-dev amd64 2.4.91-2~16.04.1 [232 kB]
+Get:22 http://archive.ubuntu.com/ubuntu xenial-updates/main amd64 libglapi-mesa amd64 18.0.5-0ubuntu0~16.04.1 [23.4 kB]
+Get:23 http://archive.ubuntu.com/ubuntu xenial-updates/main amd64 libllvm6.0 amd64 1:6.0-1ubuntu2~16.04.1 [14.3 MB]
+Get:24 http://archive.ubuntu.com/ubuntu xenial/main amd64 libsensors4 amd64 1:3.4.0-2 [28.4 kB]
+Get:25 http://archive.ubuntu.com/ubuntu xenial-updates/main amd64 libgl1-mesa-dri amd64 18.0.5-0ubuntu0~16.04.1 [6,080 kB]
+Get:26 http://archive.ubuntu.com/ubuntu xenial-updates/main amd64 libx11-xcb1 amd64 2:1.6.3-1ubuntu2.2 [9,296 B]
+Get:27 http://archive.ubuntu.com/ubuntu xenial/main amd64 libxcb-dri2-0 amd64 1.11.1-1ubuntu1 [6,882 B]
+Get:28 http://archive.ubuntu.com/ubuntu xenial/main amd64 libxcb-dri3-0 amd64 1.11.1-1ubuntu1 [5,218 B]
+Get:29 http://archive.ubuntu.com/ubuntu xenial/main amd64 libxcb-glx0 amd64 1.11.1-1ubuntu1 [20.9 kB]
+Get:30 http://archive.ubuntu.com/ubuntu xenial/main amd64 libxcb-present0 amd64 1.11.1-1ubuntu1 [5,218 B]
+Get:31 http://archive.ubuntu.com/ubuntu xenial/main amd64 libxcb-sync1 amd64 1.11.1-1ubuntu1 [8,324 B]
+Get:32 http://archive.ubuntu.com/ubuntu xenial-updates/main amd64 libgl1-mesa-glx amd64 18.0.5-0ubuntu0~16.04.1 [132 kB]
+Get:33 http://archive.ubuntu.com/ubuntu xenial/main amd64 libpthread-stubs0-dev amd64 0.3-4 [4,068 B]
+Get:34 http://archive.ubuntu.com/ubuntu xenial/main amd64 xorg-sgml-doctools all 1:1.11-1 [12.9 kB]
+Get:35 http://archive.ubuntu.com/ubuntu xenial-updates/main amd64 x11proto-core-dev all 7.0.31-1~ubuntu16.04.2 [254 kB]
+Get:36 http://archive.ubuntu.com/ubuntu xenial/main amd64 libxau-dev amd64 1:1.0.8-1 [11.1 kB]
+Get:37 http://archive.ubuntu.com/ubuntu xenial/main amd64 libxdmcp-dev amd64 1:1.1.2-1.1 [25.1 kB]
+Get:38 http://archive.ubuntu.com/ubuntu xenial/main amd64 x11proto-input-dev all 2.3.1-1 [118 kB]
+Get:39 http://archive.ubuntu.com/ubuntu xenial/main amd64 x11proto-kb-dev all 1.0.7-0ubuntu1 [224 kB]
+Get:40 http://archive.ubuntu.com/ubuntu xenial/main amd64 xtrans-dev all 1.3.5-1 [70.5 kB]
+Get:41 http://archive.ubuntu.com/ubuntu xenial/main amd64 libxcb1-dev amd64 1.11.1-1ubuntu1 [74.2 kB]
+Get:42 http://archive.ubuntu.com/ubuntu xenial-updates/main amd64 libx11-dev amd64 2:1.6.3-1ubuntu2.2 [639 kB]
+Get:43 http://archive.ubuntu.com/ubuntu xenial-updates/main amd64 libx11-xcb-dev amd64 2:1.6.3-1ubuntu2.2 [9,684 B]
+Get:44 http://archive.ubuntu.com/ubuntu xenial/main amd64 libxcb-dri2-0-dev amd64 1.11.1-1ubuntu1 [8,384 B]
+Get:45 http://archive.ubuntu.com/ubuntu xenial/main amd64 libxcb-dri3-dev amd64 1.11.1-1ubuntu1 [5,752 B]
+Get:46 http://archive.ubuntu.com/ubuntu xenial/main amd64 libxcb-glx0-dev amd64 1.11.1-1ubuntu1 [26.9 kB]
+Get:47 http://archive.ubuntu.com/ubuntu xenial/main amd64 libxcb-randr0 amd64 1.11.1-1ubuntu1 [14.4 kB]
+Get:48 http://archive.ubuntu.com/ubuntu xenial/main amd64 libxcb-render0 amd64 1.11.1-1ubuntu1 [11.4 kB]
+Get:49 http://archive.ubuntu.com/ubuntu xenial/main amd64 libxcb-render0-dev amd64 1.11.1-1ubuntu1 [15.3 kB]
+Get:50 http://archive.ubuntu.com/ubuntu xenial/main amd64 libxcb-randr0-dev amd64 1.11.1-1ubuntu1 [18.2 kB]
+Get:51 http://archive.ubuntu.com/ubuntu xenial/main amd64 libxcb-xfixes0 amd64 1.11.1-1ubuntu1 [8,840 B]
+Get:52 http://archive.ubuntu.com/ubuntu xenial/main amd64 libxcb-shape0 amd64 1.11.1-1ubuntu1 [5,756 B]
+Get:53 http://archive.ubuntu.com/ubuntu xenial/main amd64 libxcb-shape0-dev amd64 1.11.1-1ubuntu1 [6,900 B]
+Get:54 http://archive.ubuntu.com/ubuntu xenial/main amd64 libxcb-xfixes0-dev amd64 1.11.1-1ubuntu1 [11.2 kB]
+Get:55 http://archive.ubuntu.com/ubuntu xenial/main amd64 libxcb-sync-dev amd64 1.11.1-1ubuntu1 [10.1 kB]
+Get:56 http://archive.ubuntu.com/ubuntu xenial/main amd64 libxcb-present-dev amd64 1.11.1-1ubuntu1 [6,618 B]
+Get:57 http://archive.ubuntu.com/ubuntu xenial/main amd64 x11proto-xext-dev all 7.3.0-1 [212 kB]
+Get:58 http://archive.ubuntu.com/ubuntu xenial/main amd64 x11proto-fixes-dev all 1:5.0-2ubuntu2 [14.2 kB]
+Get:59 http://archive.ubuntu.com/ubuntu xenial/main amd64 libxfixes-dev amd64 1:5.0.1-2 [10.9 kB]
+Get:60 http://archive.ubuntu.com/ubuntu xenial/main amd64 x11proto-damage-dev all 1:1.2.1-2 [8,286 B]
+Get:61 http://archive.ubuntu.com/ubuntu xenial/main amd64 libxdamage-dev amd64 1:1.1.4-2 [5,028 B]
+Get:62 http://archive.ubuntu.com/ubuntu xenial/main amd64 libxext-dev amd64 2:1.3.3-1 [82.1 kB]
+Get:63 http://archive.ubuntu.com/ubuntu xenial/main amd64 libxshmfence-dev amd64 1.2-1 [3,676 B]
+Get:64 http://archive.ubuntu.com/ubuntu xenial/main amd64 x11proto-xf86vidmode-dev all 2.3.1-2 [6,116 B]
+Get:65 http://archive.ubuntu.com/ubuntu xenial/main amd64 libxxf86vm-dev amd64 1:1.1.4-1 [13.3 kB]
+Get:66 http://archive.ubuntu.com/ubuntu xenial-updates/main amd64 mesa-common-dev amd64 18.0.5-0ubuntu0~16.04.1 [543 kB]
+Get:67 http://archive.ubuntu.com/ubuntu xenial/main amd64 x11proto-dri2-dev all 2.8-2 [12.6 kB]
+Get:68 http://archive.ubuntu.com/ubuntu xenial/main amd64 x11proto-gl-dev all 1.4.17-1 [17.9 kB]
+Get:69 http://archive.ubuntu.com/ubuntu xenial-updates/main amd64 libgl1-mesa-dev amd64 18.0.5-0ubuntu0~16.04.1 [4,456 B]
+debconf: delaying package configuration, since apt-utils is not installed
+Fetched 24.5 MB in 0s (51.8 MB/s)
+Selecting previously unselected package libxau6:amd64.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 16609 files and directories currently installed.)
+Preparing to unpack .../libxau6_1%3a1.0.8-1_amd64.deb ...
+Unpacking libxau6:amd64 (1:1.0.8-1) ...
+Selecting previously unselected package libxdmcp6:amd64.
+Preparing to unpack .../libxdmcp6_1%3a1.1.2-1.1_amd64.deb ...
+Unpacking libxdmcp6:amd64 (1:1.1.2-1.1) ...
+Selecting previously unselected package libxcb1:amd64.
+Preparing to unpack .../libxcb1_1.11.1-1ubuntu1_amd64.deb ...
+Unpacking libxcb1:amd64 (1.11.1-1ubuntu1) ...
+Selecting previously unselected package libx11-data.
+Preparing to unpack .../libx11-data_2%3a1.6.3-1ubuntu2.2_all.deb ...
+Unpacking libx11-data (2:1.6.3-1ubuntu2.2) ...
+Selecting previously unselected package libx11-6:amd64.
+Preparing to unpack .../libx11-6_2%3a1.6.3-1ubuntu2.2_amd64.deb ...
+Unpacking libx11-6:amd64 (2:1.6.3-1ubuntu2.2) ...
+Selecting previously unselected package libxext6:amd64.
+Preparing to unpack .../libxext6_2%3a1.3.3-1_amd64.deb ...
+Unpacking libxext6:amd64 (2:1.3.3-1) ...
+Selecting previously unselected package libxdamage1:amd64.
+Preparing to unpack .../libxdamage1_1%3a1.1.4-2_amd64.deb ...
+Unpacking libxdamage1:amd64 (1:1.1.4-2) ...
+Selecting previously unselected package libxfixes3:amd64.
+Preparing to unpack .../libxfixes3_1%3a5.0.1-2_amd64.deb ...
+Unpacking libxfixes3:amd64 (1:5.0.1-2) ...
+Selecting previously unselected package libxshmfence1:amd64.
+Preparing to unpack .../libxshmfence1_1.2-1_amd64.deb ...
+Unpacking libxshmfence1:amd64 (1.2-1) ...
+Selecting previously unselected package libxxf86vm1:amd64.
+Preparing to unpack .../libxxf86vm1_1%3a1.1.4-1_amd64.deb ...
+Unpacking libxxf86vm1:amd64 (1:1.1.4-1) ...
+Selecting previously unselected package libbsd0:amd64.
+Preparing to unpack .../libbsd0_0.8.2-1ubuntu0.1_amd64.deb ...
+Unpacking libbsd0:amd64 (0.8.2-1ubuntu0.1) ...
+Selecting previously unselected package libdrm-common.
+Preparing to unpack .../libdrm-common_2.4.91-2~16.04.1_all.deb ...
+Unpacking libdrm-common (2.4.91-2~16.04.1) ...
+Selecting previously unselected package libdrm2:amd64.
+Preparing to unpack .../libdrm2_2.4.91-2~16.04.1_amd64.deb ...
+Unpacking libdrm2:amd64 (2.4.91-2~16.04.1) ...
+Selecting previously unselected package libedit2:amd64.
+Preparing to unpack .../libedit2_3.1-20150325-1ubuntu2_amd64.deb ...
+Unpacking libedit2:amd64 (3.1-20150325-1ubuntu2) ...
+Selecting previously unselected package libelf1:amd64.
+Preparing to unpack .../libelf1_0.165-3ubuntu1.2_amd64.deb ...
+Unpacking libelf1:amd64 (0.165-3ubuntu1.2) ...
+Selecting previously unselected package libdrm-amdgpu1:amd64.
+Preparing to unpack .../libdrm-amdgpu1_2.4.91-2~16.04.1_amd64.deb ...
+Unpacking libdrm-amdgpu1:amd64 (2.4.91-2~16.04.1) ...
+Selecting previously unselected package libpciaccess0:amd64.
+Preparing to unpack .../libpciaccess0_0.13.4-1_amd64.deb ...
+Unpacking libpciaccess0:amd64 (0.13.4-1) ...
+Selecting previously unselected package libdrm-intel1:amd64.
+Preparing to unpack .../libdrm-intel1_2.4.91-2~16.04.1_amd64.deb ...
+Unpacking libdrm-intel1:amd64 (2.4.91-2~16.04.1) ...
+Selecting previously unselected package libdrm-radeon1:amd64.
+Preparing to unpack .../libdrm-radeon1_2.4.91-2~16.04.1_amd64.deb ...
+Unpacking libdrm-radeon1:amd64 (2.4.91-2~16.04.1) ...
+Selecting previously unselected package libdrm-nouveau2:amd64.
+Preparing to unpack .../libdrm-nouveau2_2.4.91-2~16.04.1_amd64.deb ...
+Unpacking libdrm-nouveau2:amd64 (2.4.91-2~16.04.1) ...
+Selecting previously unselected package libdrm-dev:amd64.
+Preparing to unpack .../libdrm-dev_2.4.91-2~16.04.1_amd64.deb ...
+Unpacking libdrm-dev:amd64 (2.4.91-2~16.04.1) ...
+Selecting previously unselected package libglapi-mesa:amd64.
+Preparing to unpack .../libglapi-mesa_18.0.5-0ubuntu0~16.04.1_amd64.deb ...
+Unpacking libglapi-mesa:amd64 (18.0.5-0ubuntu0~16.04.1) ...
+Selecting previously unselected package libllvm6.0:amd64.
+Preparing to unpack .../libllvm6.0_1%3a6.0-1ubuntu2~16.04.1_amd64.deb ...
+Unpacking libllvm6.0:amd64 (1:6.0-1ubuntu2~16.04.1) ...
+Selecting previously unselected package libsensors4:amd64.
+Preparing to unpack .../libsensors4_1%3a3.4.0-2_amd64.deb ...
+Unpacking libsensors4:amd64 (1:3.4.0-2) ...
+Selecting previously unselected package libgl1-mesa-dri:amd64.
+Preparing to unpack .../libgl1-mesa-dri_18.0.5-0ubuntu0~16.04.1_amd64.deb ...
+Unpacking libgl1-mesa-dri:amd64 (18.0.5-0ubuntu0~16.04.1) ...
+Selecting previously unselected package libx11-xcb1:amd64.
+Preparing to unpack .../libx11-xcb1_2%3a1.6.3-1ubuntu2.2_amd64.deb ...
+Unpacking libx11-xcb1:amd64 (2:1.6.3-1ubuntu2.2) ...
+Selecting previously unselected package libxcb-dri2-0:amd64.
+Preparing to unpack .../libxcb-dri2-0_1.11.1-1ubuntu1_amd64.deb ...
+Unpacking libxcb-dri2-0:amd64 (1.11.1-1ubuntu1) ...
+Selecting previously unselected package libxcb-dri3-0:amd64.
+Preparing to unpack .../libxcb-dri3-0_1.11.1-1ubuntu1_amd64.deb ...
+Unpacking libxcb-dri3-0:amd64 (1.11.1-1ubuntu1) ...
+Selecting previously unselected package libxcb-glx0:amd64.
+Preparing to unpack .../libxcb-glx0_1.11.1-1ubuntu1_amd64.deb ...
+Unpacking libxcb-glx0:amd64 (1.11.1-1ubuntu1) ...
+Selecting previously unselected package libxcb-present0:amd64.
+Preparing to unpack .../libxcb-present0_1.11.1-1ubuntu1_amd64.deb ...
+Unpacking libxcb-present0:amd64 (1.11.1-1ubuntu1) ...
+Selecting previously unselected package libxcb-sync1:amd64.
+Preparing to unpack .../libxcb-sync1_1.11.1-1ubuntu1_amd64.deb ...
+Unpacking libxcb-sync1:amd64 (1.11.1-1ubuntu1) ...
+Selecting previously unselected package libgl1-mesa-glx:amd64.
+Preparing to unpack .../libgl1-mesa-glx_18.0.5-0ubuntu0~16.04.1_amd64.deb ...
+Unpacking libgl1-mesa-glx:amd64 (18.0.5-0ubuntu0~16.04.1) ...
+Selecting previously unselected package libpthread-stubs0-dev:amd64.
+Preparing to unpack .../libpthread-stubs0-dev_0.3-4_amd64.deb ...
+Unpacking libpthread-stubs0-dev:amd64 (0.3-4) ...
+Selecting previously unselected package xorg-sgml-doctools.
+Preparing to unpack .../xorg-sgml-doctools_1%3a1.11-1_all.deb ...
+Unpacking xorg-sgml-doctools (1:1.11-1) ...
+Selecting previously unselected package x11proto-core-dev.
+Preparing to unpack .../x11proto-core-dev_7.0.31-1~ubuntu16.04.2_all.deb ...
+Unpacking x11proto-core-dev (7.0.31-1~ubuntu16.04.2) ...
+Selecting previously unselected package libxau-dev:amd64.
+Preparing to unpack .../libxau-dev_1%3a1.0.8-1_amd64.deb ...
+Unpacking libxau-dev:amd64 (1:1.0.8-1) ...
+Selecting previously unselected package libxdmcp-dev:amd64.
+Preparing to unpack .../libxdmcp-dev_1%3a1.1.2-1.1_amd64.deb ...
+Unpacking libxdmcp-dev:amd64 (1:1.1.2-1.1) ...
+Selecting previously unselected package x11proto-input-dev.
+Preparing to unpack .../x11proto-input-dev_2.3.1-1_all.deb ...
+Unpacking x11proto-input-dev (2.3.1-1) ...
+Selecting previously unselected package x11proto-kb-dev.
+Preparing to unpack .../x11proto-kb-dev_1.0.7-0ubuntu1_all.deb ...
+Unpacking x11proto-kb-dev (1.0.7-0ubuntu1) ...
+Selecting previously unselected package xtrans-dev.
+Preparing to unpack .../xtrans-dev_1.3.5-1_all.deb ...
+Unpacking xtrans-dev (1.3.5-1) ...
+Selecting previously unselected package libxcb1-dev:amd64.
+Preparing to unpack .../libxcb1-dev_1.11.1-1ubuntu1_amd64.deb ...
+Unpacking libxcb1-dev:amd64 (1.11.1-1ubuntu1) ...
+Selecting previously unselected package libx11-dev:amd64.
+Preparing to unpack .../libx11-dev_2%3a1.6.3-1ubuntu2.2_amd64.deb ...
+Unpacking libx11-dev:amd64 (2:1.6.3-1ubuntu2.2) ...
+Selecting previously unselected package libx11-xcb-dev:amd64.
+Preparing to unpack .../libx11-xcb-dev_2%3a1.6.3-1ubuntu2.2_amd64.deb ...
+Unpacking libx11-xcb-dev:amd64 (2:1.6.3-1ubuntu2.2) ...
+Selecting previously unselected package libxcb-dri2-0-dev:amd64.
+Preparing to unpack .../libxcb-dri2-0-dev_1.11.1-1ubuntu1_amd64.deb ...
+Unpacking libxcb-dri2-0-dev:amd64 (1.11.1-1ubuntu1) ...
+Selecting previously unselected package libxcb-dri3-dev:amd64.
+Preparing to unpack .../libxcb-dri3-dev_1.11.1-1ubuntu1_amd64.deb ...
+Unpacking libxcb-dri3-dev:amd64 (1.11.1-1ubuntu1) ...
+Selecting previously unselected package libxcb-glx0-dev:amd64.
+Preparing to unpack .../libxcb-glx0-dev_1.11.1-1ubuntu1_amd64.deb ...
+Unpacking libxcb-glx0-dev:amd64 (1.11.1-1ubuntu1) ...
+Selecting previously unselected package libxcb-randr0:amd64.
+Preparing to unpack .../libxcb-randr0_1.11.1-1ubuntu1_amd64.deb ...
+Unpacking libxcb-randr0:amd64 (1.11.1-1ubuntu1) ...
+Selecting previously unselected package libxcb-render0:amd64.
+Preparing to unpack .../libxcb-render0_1.11.1-1ubuntu1_amd64.deb ...
+Unpacking libxcb-render0:amd64 (1.11.1-1ubuntu1) ...
+Selecting previously unselected package libxcb-render0-dev:amd64.
+Preparing to unpack .../libxcb-render0-dev_1.11.1-1ubuntu1_amd64.deb ...
+Unpacking libxcb-render0-dev:amd64 (1.11.1-1ubuntu1) ...
+Selecting previously unselected package libxcb-randr0-dev:amd64.
+Preparing to unpack .../libxcb-randr0-dev_1.11.1-1ubuntu1_amd64.deb ...
+Unpacking libxcb-randr0-dev:amd64 (1.11.1-1ubuntu1) ...
+Selecting previously unselected package libxcb-xfixes0:amd64.
+Preparing to unpack .../libxcb-xfixes0_1.11.1-1ubuntu1_amd64.deb ...
+Unpacking libxcb-xfixes0:amd64 (1.11.1-1ubuntu1) ...
+Selecting previously unselected package libxcb-shape0:amd64.
+Preparing to unpack .../libxcb-shape0_1.11.1-1ubuntu1_amd64.deb ...
+Unpacking libxcb-shape0:amd64 (1.11.1-1ubuntu1) ...
+Selecting previously unselected package libxcb-shape0-dev:amd64.
+Preparing to unpack .../libxcb-shape0-dev_1.11.1-1ubuntu1_amd64.deb ...
+Unpacking libxcb-shape0-dev:amd64 (1.11.1-1ubuntu1) ...
+Selecting previously unselected package libxcb-xfixes0-dev:amd64.
+Preparing to unpack .../libxcb-xfixes0-dev_1.11.1-1ubuntu1_amd64.deb ...
+Unpacking libxcb-xfixes0-dev:amd64 (1.11.1-1ubuntu1) ...
+Selecting previously unselected package libxcb-sync-dev:amd64.
+Preparing to unpack .../libxcb-sync-dev_1.11.1-1ubuntu1_amd64.deb ...
+Unpacking libxcb-sync-dev:amd64 (1.11.1-1ubuntu1) ...
+Selecting previously unselected package libxcb-present-dev:amd64.
+Preparing to unpack .../libxcb-present-dev_1.11.1-1ubuntu1_amd64.deb ...
+Unpacking libxcb-present-dev:amd64 (1.11.1-1ubuntu1) ...
+Selecting previously unselected package x11proto-xext-dev.
+Preparing to unpack .../x11proto-xext-dev_7.3.0-1_all.deb ...
+Unpacking x11proto-xext-dev (7.3.0-1) ...
+Selecting previously unselected package x11proto-fixes-dev.
+Preparing to unpack .../x11proto-fixes-dev_1%3a5.0-2ubuntu2_all.deb ...
+Unpacking x11proto-fixes-dev (1:5.0-2ubuntu2) ...
+Selecting previously unselected package libxfixes-dev:amd64.
+Preparing to unpack .../libxfixes-dev_1%3a5.0.1-2_amd64.deb ...
+Unpacking libxfixes-dev:amd64 (1:5.0.1-2) ...
+Selecting previously unselected package x11proto-damage-dev.
+Preparing to unpack .../x11proto-damage-dev_1%3a1.2.1-2_all.deb ...
+Unpacking x11proto-damage-dev (1:1.2.1-2) ...
+Selecting previously unselected package libxdamage-dev:amd64.
+Preparing to unpack .../libxdamage-dev_1%3a1.1.4-2_amd64.deb ...
+Unpacking libxdamage-dev:amd64 (1:1.1.4-2) ...
+Selecting previously unselected package libxext-dev:amd64.
+Preparing to unpack .../libxext-dev_2%3a1.3.3-1_amd64.deb ...
+Unpacking libxext-dev:amd64 (2:1.3.3-1) ...
+Selecting previously unselected package libxshmfence-dev:amd64.
+Preparing to unpack .../libxshmfence-dev_1.2-1_amd64.deb ...
+Unpacking libxshmfence-dev:amd64 (1.2-1) ...
+Selecting previously unselected package x11proto-xf86vidmode-dev.
+Preparing to unpack .../x11proto-xf86vidmode-dev_2.3.1-2_all.deb ...
+Unpacking x11proto-xf86vidmode-dev (2.3.1-2) ...
+Selecting previously unselected package libxxf86vm-dev:amd64.
+Preparing to unpack .../libxxf86vm-dev_1%3a1.1.4-1_amd64.deb ...
+Unpacking libxxf86vm-dev:amd64 (1:1.1.4-1) ...
+Selecting previously unselected package mesa-common-dev:amd64.
+Preparing to unpack .../mesa-common-dev_18.0.5-0ubuntu0~16.04.1_amd64.deb ...
+Unpacking mesa-common-dev:amd64 (18.0.5-0ubuntu0~16.04.1) ...
+Selecting previously unselected package x11proto-dri2-dev.
+Preparing to unpack .../x11proto-dri2-dev_2.8-2_all.deb ...
+Unpacking x11proto-dri2-dev (2.8-2) ...
+Selecting previously unselected package x11proto-gl-dev.
+Preparing to unpack .../x11proto-gl-dev_1.4.17-1_all.deb ...
+Unpacking x11proto-gl-dev (1.4.17-1) ...
+Selecting previously unselected package libgl1-mesa-dev:amd64.
+Preparing to unpack .../libgl1-mesa-dev_18.0.5-0ubuntu0~16.04.1_amd64.deb ...
+Unpacking libgl1-mesa-dev:amd64 (18.0.5-0ubuntu0~16.04.1) ...
+Processing triggers for libc-bin (2.23-0ubuntu11.3) ...
+Processing triggers for man-db (2.7.5-1) ...
+Setting up libxau6:amd64 (1:1.0.8-1) ...
+Setting up libxdmcp6:amd64 (1:1.1.2-1.1) ...
+Setting up libxcb1:amd64 (1.11.1-1ubuntu1) ...
+Setting up libx11-data (2:1.6.3-1ubuntu2.2) ...
+Setting up libx11-6:amd64 (2:1.6.3-1ubuntu2.2) ...
+Setting up libxext6:amd64 (2:1.3.3-1) ...
+Setting up libxdamage1:amd64 (1:1.1.4-2) ...
+Setting up libxfixes3:amd64 (1:5.0.1-2) ...
+Setting up libxshmfence1:amd64 (1.2-1) ...
+Setting up libxxf86vm1:amd64 (1:1.1.4-1) ...
+Setting up libbsd0:amd64 (0.8.2-1ubuntu0.1) ...
+Setting up libdrm-common (2.4.91-2~16.04.1) ...
+Setting up libdrm2:amd64 (2.4.91-2~16.04.1) ...
+Setting up libedit2:amd64 (3.1-20150325-1ubuntu2) ...
+Setting up libelf1:amd64 (0.165-3ubuntu1.2) ...
+Setting up libdrm-amdgpu1:amd64 (2.4.91-2~16.04.1) ...
+Setting up libpciaccess0:amd64 (0.13.4-1) ...
+Setting up libdrm-intel1:amd64 (2.4.91-2~16.04.1) ...
+Setting up libdrm-radeon1:amd64 (2.4.91-2~16.04.1) ...
+Setting up libdrm-nouveau2:amd64 (2.4.91-2~16.04.1) ...
+Setting up libdrm-dev:amd64 (2.4.91-2~16.04.1) ...
+Setting up libglapi-mesa:amd64 (18.0.5-0ubuntu0~16.04.1) ...
+Setting up libllvm6.0:amd64 (1:6.0-1ubuntu2~16.04.1) ...
+Setting up libsensors4:amd64 (1:3.4.0-2) ...
+Setting up libgl1-mesa-dri:amd64 (18.0.5-0ubuntu0~16.04.1) ...
+Setting up libx11-xcb1:amd64 (2:1.6.3-1ubuntu2.2) ...
+Setting up libxcb-dri2-0:amd64 (1.11.1-1ubuntu1) ...
+Setting up libxcb-dri3-0:amd64 (1.11.1-1ubuntu1) ...
+Setting up libxcb-glx0:amd64 (1.11.1-1ubuntu1) ...
+Setting up libxcb-present0:amd64 (1.11.1-1ubuntu1) ...
+Setting up libxcb-sync1:amd64 (1.11.1-1ubuntu1) ...
+Setting up libgl1-mesa-glx:amd64 (18.0.5-0ubuntu0~16.04.1) ...
+update-alternatives: using /usr/lib/x86_64-linux-gnu/mesa/ld.so.conf to provide /etc/ld.so.conf.d/x86_64-linux-gnu_GL.conf (x86_64-linux-gnu_gl_conf) in auto mode
+Setting up libpthread-stubs0-dev:amd64 (0.3-4) ...
+Setting up xorg-sgml-doctools (1:1.11-1) ...
+Setting up x11proto-core-dev (7.0.31-1~ubuntu16.04.2) ...
+Setting up libxau-dev:amd64 (1:1.0.8-1) ...
+Setting up libxdmcp-dev:amd64 (1:1.1.2-1.1) ...
+Setting up x11proto-input-dev (2.3.1-1) ...
+Setting up x11proto-kb-dev (1.0.7-0ubuntu1) ...
+Setting up xtrans-dev (1.3.5-1) ...
+Setting up libxcb1-dev:amd64 (1.11.1-1ubuntu1) ...
+Setting up libx11-dev:amd64 (2:1.6.3-1ubuntu2.2) ...
+Setting up libx11-xcb-dev:amd64 (2:1.6.3-1ubuntu2.2) ...
+Setting up libxcb-dri2-0-dev:amd64 (1.11.1-1ubuntu1) ...
+Setting up libxcb-dri3-dev:amd64 (1.11.1-1ubuntu1) ...
+Setting up libxcb-glx0-dev:amd64 (1.11.1-1ubuntu1) ...
+Setting up libxcb-randr0:amd64 (1.11.1-1ubuntu1) ...
+Setting up libxcb-render0:amd64 (1.11.1-1ubuntu1) ...
+Setting up libxcb-render0-dev:amd64 (1.11.1-1ubuntu1) ...
+Setting up libxcb-randr0-dev:amd64 (1.11.1-1ubuntu1) ...
+Setting up libxcb-xfixes0:amd64 (1.11.1-1ubuntu1) ...
+Setting up libxcb-shape0:amd64 (1.11.1-1ubuntu1) ...
+Setting up libxcb-shape0-dev:amd64 (1.11.1-1ubuntu1) ...
+Setting up libxcb-xfixes0-dev:amd64 (1.11.1-1ubuntu1) ...
+Setting up libxcb-sync-dev:amd64 (1.11.1-1ubuntu1) ...
+Setting up libxcb-present-dev:amd64 (1.11.1-1ubuntu1) ...
+Setting up x11proto-xext-dev (7.3.0-1) ...
+Setting up x11proto-fixes-dev (1:5.0-2ubuntu2) ...
+Setting up libxfixes-dev:amd64 (1:5.0.1-2) ...
+Setting up x11proto-damage-dev (1:1.2.1-2) ...
+Setting up libxdamage-dev:amd64 (1:1.1.4-2) ...
+Setting up libxext-dev:amd64 (2:1.3.3-1) ...
+Setting up libxshmfence-dev:amd64 (1.2-1) ...
+Setting up x11proto-xf86vidmode-dev (2.3.1-2) ...
+Setting up libxxf86vm-dev:amd64 (1:1.1.4-1) ...
+Setting up mesa-common-dev:amd64 (18.0.5-0ubuntu0~16.04.1) ...
+Setting up x11proto-dri2-dev (2.8-2) ...
+Setting up x11proto-gl-dev (1.4.17-1) ...
+Setting up libgl1-mesa-dev:amd64 (18.0.5-0ubuntu0~16.04.1) ...
+Processing triggers for libc-bin (2.23-0ubuntu11.3) ...
+pkgconf/1.9.3: Appending PATH env var: /home/conan/.conan/data/pkgconf/1.9.3/_/_/package/24647d9fe8ec489125dfbae4b3ebefaf7581674c/bin
+pkgconf/1.9.3: Setting PKG_CONFIG env var: /home/conan/.conan/data/pkgconf/1.9.3/_/_/package/24647d9fe8ec489125dfbae4b3ebefaf7581674c/bin/pkgconf
+pkgconf/1.9.3: Appending AUTOMAKE_CONAN_INCLUDES env var: /home/conan/.conan/data/pkgconf/1.9.3/_/_/package/24647d9fe8ec489125dfbae4b3ebefaf7581674c/bin/aclocal
+sqlite3/3.39.4: Appending PATH env var with : /home/conan/.conan/data/sqlite3/3.39.4/_/_/package/a0e6c9e5a908f3e3d4654a1dc1fc1f1cbfb986c8/bin
+dpkg-query: no packages found matching xkb-data
+Hit:1 http://security.ubuntu.com/ubuntu xenial-security InRelease
+Hit:2 http://ppa.launchpad.net/git-core/ppa/ubuntu xenial InRelease
+Hit:3 http://archive.ubuntu.com/ubuntu xenial InRelease
+Hit:4 http://archive.ubuntu.com/ubuntu xenial-updates InRelease
+Hit:5 http://archive.ubuntu.com/ubuntu xenial-backports InRelease
+Reading package lists...
+Reading package lists...
+Building dependency tree...
+Reading state information...
+The following NEW packages will be installed:
+  xkb-data
+0 upgraded, 1 newly installed, 0 to remove and 2 not upgraded.
+Need to get 305 kB of archives.
+After this operation, 3,067 kB of additional disk space will be used.
+Get:1 http://archive.ubuntu.com/ubuntu xenial/main amd64 xkb-data all 2.16-1ubuntu1 [305 kB]
+debconf: delaying package configuration, since apt-utils is not installed
+Fetched 305 kB in 0s (384 kB/s)
+Selecting previously unselected package xkb-data.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 17938 files and directories currently installed.)
+Preparing to unpack .../xkb-data_2.16-1ubuntu1_all.deb ...
+Unpacking xkb-data (2.16-1ubuntu1) ...
+Processing triggers for man-db (2.7.5-1) ...
+Setting up xkb-data (2.16-1ubuntu1) ...
+dpkg-query: no packages found matching libfontenc-dev
+dpkg-query: no packages found matching libice-dev
+dpkg-query: no packages found matching libsm-dev
+dpkg-query: no packages found matching libxaw7-dev
+dpkg-query: no packages found matching libxcomposite-dev
+dpkg-query: no packages found matching libxcursor-dev
+dpkg-query: no packages found matching libxi-dev
+dpkg-query: no packages found matching libxinerama-dev
+dpkg-query: no packages found matching libxkbfile-dev
+dpkg-query: no packages found matching libxmu-dev
+dpkg-query: no packages found matching libxmuu-dev
+dpkg-query: no packages found matching libxpm-dev
+dpkg-query: no packages found matching libxrandr-dev
+dpkg-query: no packages found matching libxrender-dev
+dpkg-query: no packages found matching libxres-dev
+dpkg-query: no packages found matching libxss-dev
+dpkg-query: no packages found matching libxt-dev
+dpkg-query: no packages found matching libxv-dev
+dpkg-query: no packages found matching libxvmc-dev
+dpkg-query: no packages found matching libxcb-render-util0-dev
+dpkg-query: no packages found matching libxcb-xkb-dev
+dpkg-query: no packages found matching libxcb-icccm4-dev
+dpkg-query: no packages found matching libxcb-image0-dev
+dpkg-query: no packages found matching libxcb-keysyms1-dev
+dpkg-query: no packages found matching libxcb-xinerama0-dev
+dpkg-query: no packages found matching uuid-dev
+Hit:1 http://ppa.launchpad.net/git-core/ppa/ubuntu xenial InRelease
+Hit:2 http://archive.ubuntu.com/ubuntu xenial InRelease
+Hit:3 http://security.ubuntu.com/ubuntu xenial-security InRelease
+Hit:4 http://archive.ubuntu.com/ubuntu xenial-updates InRelease
+Hit:5 http://archive.ubuntu.com/ubuntu xenial-backports InRelease
+Reading package lists...
+Reading package lists...
+Building dependency tree...
+Reading state information...
+The following additional packages will be installed:
+  libfontenc1 libice6 libsm6 libxaw7 libxcb-icccm4 libxcb-image0
+  libxcb-keysyms1 libxcb-render-util0 libxcb-shm0 libxcb-shm0-dev libxcb-util1
+  libxcb-xinerama0 libxcb-xkb1 libxcomposite1 libxcursor1 libxi6 libxinerama1
+  libxkbfile1 libxmu-headers libxmu6 libxmuu1 libxpm4 libxrandr2 libxrender1
+  libxres1 libxss1 libxt6 libxtst6 libxv1 libxvmc1 x11-common
+  x11proto-composite-dev x11proto-randr-dev x11proto-record-dev
+  x11proto-render-dev x11proto-resource-dev x11proto-scrnsaver-dev
+  x11proto-video-dev x11proto-xinerama-dev zlib1g-dev
+Suggested packages:
+  libice-doc libsm-doc libxaw-doc libxt-doc
+The following NEW packages will be installed:
+  libfontenc-dev libfontenc1 libice-dev libice6 libsm-dev libsm6 libxaw7
+  libxaw7-dev libxcb-icccm4 libxcb-icccm4-dev libxcb-image0 libxcb-image0-dev
+  libxcb-keysyms1 libxcb-keysyms1-dev libxcb-render-util0
+  libxcb-render-util0-dev libxcb-shm0 libxcb-shm0-dev libxcb-util1
+  libxcb-xinerama0 libxcb-xinerama0-dev libxcb-xkb-dev libxcb-xkb1
+  libxcomposite-dev libxcomposite1 libxcursor-dev libxcursor1 libxi-dev libxi6
+  libxinerama-dev libxinerama1 libxkbfile-dev libxkbfile1 libxmu-dev
+  libxmu-headers libxmu6 libxmuu-dev libxmuu1 libxpm-dev libxpm4 libxrandr-dev
+  libxrandr2 libxrender-dev libxrender1 libxres-dev libxres1 libxss-dev
+  libxss1 libxt-dev libxt6 libxtst-dev libxtst6 libxv-dev libxv1 libxvmc-dev
+  libxvmc1 uuid-dev x11-common x11proto-composite-dev x11proto-randr-dev
+  x11proto-record-dev x11proto-render-dev x11proto-resource-dev
+  x11proto-scrnsaver-dev x11proto-video-dev x11proto-xinerama-dev zlib1g-dev
+0 upgraded, 67 newly installed, 0 to remove and 2 not upgraded.
+Need to get 2,601 kB of archives.
+After this operation, 11.0 MB of additional disk space will be used.
+Get:1 http://archive.ubuntu.com/ubuntu xenial-updates/main amd64 x11-common all 1:7.7+13ubuntu3.1 [22.9 kB]
+Get:2 http://archive.ubuntu.com/ubuntu xenial/main amd64 libice6 amd64 2:1.0.9-1 [39.2 kB]
+Get:3 http://archive.ubuntu.com/ubuntu xenial/main amd64 libsm6 amd64 2:1.2.2-1 [15.8 kB]
+Get:4 http://archive.ubuntu.com/ubuntu xenial/main amd64 libxcomposite1 amd64 1:0.4.4-1 [7,714 B]
+Get:5 http://archive.ubuntu.com/ubuntu xenial/main amd64 libxinerama1 amd64 2:1.1.3-1 [7,908 B]
+Get:6 http://archive.ubuntu.com/ubuntu xenial/main amd64 libxres1 amd64 2:1.0.7-1 [7,154 B]
+Get:7 http://archive.ubuntu.com/ubuntu xenial/main amd64 libxss1 amd64 1:1.2.2-1 [8,582 B]
+Get:8 http://archive.ubuntu.com/ubuntu xenial/main amd64 libxtst6 amd64 2:1.2.2-1 [14.1 kB]
+Get:9 http://archive.ubuntu.com/ubuntu xenial/main amd64 libxv1 amd64 2:1.0.10-1 [10.3 kB]
+Get:10 http://archive.ubuntu.com/ubuntu xenial/main amd64 libxcb-icccm4 amd64 0.4.1-1ubuntu1 [10.4 kB]
+Get:11 http://archive.ubuntu.com/ubuntu xenial/main amd64 libxcb-keysyms1 amd64 0.4.0-1 [8,406 B]
+Get:12 http://archive.ubuntu.com/ubuntu xenial/main amd64 libxcb-render-util0 amd64 0.3.9-1 [9,638 B]
+Get:13 http://archive.ubuntu.com/ubuntu xenial/main amd64 libxmuu1 amd64 2:1.1.2-2 [9,674 B]
+Get:14 http://archive.ubuntu.com/ubuntu xenial/main amd64 libfontenc1 amd64 1:1.1.3-1 [13.9 kB]
+Get:15 http://archive.ubuntu.com/ubuntu xenial-updates/main amd64 zlib1g-dev amd64 1:1.2.8.dfsg-2ubuntu4.3 [167 kB]
+Get:16 http://archive.ubuntu.com/ubuntu xenial/main amd64 libfontenc-dev amd64 1:1.1.3-1 [13.8 kB]
+Get:17 http://archive.ubuntu.com/ubuntu xenial/main amd64 libice-dev amd64 2:1.0.9-1 [44.9 kB]
+Get:18 http://archive.ubuntu.com/ubuntu xenial/main amd64 libsm-dev amd64 2:1.2.2-1 [16.2 kB]
+Get:19 http://archive.ubuntu.com/ubuntu xenial/main amd64 libxt6 amd64 1:1.1.5-0ubuntu1 [160 kB]
+Get:20 http://archive.ubuntu.com/ubuntu xenial/main amd64 libxmu6 amd64 2:1.1.2-2 [46.0 kB]
+Get:21 http://archive.ubuntu.com/ubuntu xenial-updates/main amd64 libxpm4 amd64 1:3.5.11-1ubuntu0.16.04.1 [33.8 kB]
+Get:22 http://archive.ubuntu.com/ubuntu xenial/main amd64 libxaw7 amd64 2:1.0.13-1 [173 kB]
+Get:23 http://archive.ubuntu.com/ubuntu xenial/main amd64 libxt-dev amd64 1:1.1.5-0ubuntu1 [394 kB]
+Get:24 http://archive.ubuntu.com/ubuntu xenial/main amd64 libxmu-headers all 2:1.1.2-2 [54.3 kB]
+Get:25 http://archive.ubuntu.com/ubuntu xenial/main amd64 libxmu-dev amd64 2:1.1.2-2 [49.0 kB]
+Get:26 http://archive.ubuntu.com/ubuntu xenial-updates/main amd64 libxpm-dev amd64 1:3.5.11-1ubuntu0.16.04.1 [86.7 kB]
+Get:27 http://archive.ubuntu.com/ubuntu xenial/main amd64 libxaw7-dev amd64 2:1.0.13-1 [231 kB]
+Get:28 http://archive.ubuntu.com/ubuntu xenial/main amd64 libxcb-shm0 amd64 1.11.1-1ubuntu1 [5,588 B]
+Get:29 http://archive.ubuntu.com/ubuntu xenial/main amd64 libxcb-shm0-dev amd64 1.11.1-1ubuntu1 [6,604 B]
+Get:30 http://archive.ubuntu.com/ubuntu xenial/main amd64 libxcb-xinerama0 amd64 1.11.1-1ubuntu1 [5,204 B]
+Get:31 http://archive.ubuntu.com/ubuntu xenial/main amd64 libxcb-xinerama0-dev amd64 1.11.1-1ubuntu1 [5,810 B]
+Get:32 http://archive.ubuntu.com/ubuntu xenial/main amd64 libxcb-xkb1 amd64 1.11.1-1ubuntu1 [29.2 kB]
+Get:33 http://archive.ubuntu.com/ubuntu xenial/main amd64 libxcb-xkb-dev amd64 1.11.1-1ubuntu1 [40.4 kB]
+Get:34 http://archive.ubuntu.com/ubuntu xenial/main amd64 x11proto-composite-dev all 1:0.4.2-2 [10.5 kB]
+Get:35 http://archive.ubuntu.com/ubuntu xenial/main amd64 libxcomposite-dev amd64 1:0.4.4-1 [9,954 B]
+Get:36 http://archive.ubuntu.com/ubuntu xenial/main amd64 libxrender1 amd64 1:0.9.9-0ubuntu1 [18.5 kB]
+Get:37 http://archive.ubuntu.com/ubuntu xenial-updates/main amd64 libxcursor1 amd64 1:1.1.14-1ubuntu0.16.04.2 [19.9 kB]
+Get:38 http://archive.ubuntu.com/ubuntu xenial/main amd64 x11proto-render-dev all 2:0.11.1-2 [20.1 kB]
+Get:39 http://archive.ubuntu.com/ubuntu xenial/main amd64 libxrender-dev amd64 1:0.9.9-0ubuntu1 [24.5 kB]
+Get:40 http://archive.ubuntu.com/ubuntu xenial-updates/main amd64 libxcursor-dev amd64 1:1.1.14-1ubuntu0.16.04.2 [26.4 kB]
+Get:41 http://archive.ubuntu.com/ubuntu xenial/main amd64 libxi6 amd64 2:1.7.6-1 [28.6 kB]
+Get:42 http://archive.ubuntu.com/ubuntu xenial/main amd64 libxi-dev amd64 2:1.7.6-1 [184 kB]
+Get:43 http://archive.ubuntu.com/ubuntu xenial/main amd64 x11proto-xinerama-dev all 1.2.1-2 [4,966 B]
+Get:44 http://archive.ubuntu.com/ubuntu xenial/main amd64 libxinerama-dev amd64 2:1.1.3-1 [8,404 B]
+Get:45 http://archive.ubuntu.com/ubuntu xenial/main amd64 libxkbfile1 amd64 1:1.0.9-0ubuntu1 [65.1 kB]
+Get:46 http://archive.ubuntu.com/ubuntu xenial/main amd64 libxkbfile-dev amd64 1:1.0.9-0ubuntu1 [71.7 kB]
+Get:47 http://archive.ubuntu.com/ubuntu xenial/main amd64 libxmuu-dev amd64 2:1.1.2-2 [7,056 B]
+Get:48 http://archive.ubuntu.com/ubuntu xenial/main amd64 libxrandr2 amd64 2:1.5.0-1 [17.6 kB]
+Get:49 http://archive.ubuntu.com/ubuntu xenial/main amd64 x11proto-randr-dev all 1.5.0-1 [33.7 kB]
+Get:50 http://archive.ubuntu.com/ubuntu xenial/main amd64 libxrandr-dev amd64 2:1.5.0-1 [23.7 kB]
+Get:51 http://archive.ubuntu.com/ubuntu xenial/main amd64 x11proto-resource-dev all 1.2.0-3 [10.7 kB]
+Get:52 http://archive.ubuntu.com/ubuntu xenial/main amd64 libxres-dev amd64 2:1.0.7-1 [6,974 B]
+Get:53 http://archive.ubuntu.com/ubuntu xenial/main amd64 x11proto-scrnsaver-dev all 1.2.2-1 [25.0 kB]
+Get:54 http://archive.ubuntu.com/ubuntu xenial/main amd64 libxss-dev amd64 1:1.2.2-1 [12.7 kB]
+Get:55 http://archive.ubuntu.com/ubuntu xenial/main amd64 x11proto-record-dev all 1.14.2-1 [33.6 kB]
+Get:56 http://archive.ubuntu.com/ubuntu xenial/main amd64 libxtst-dev amd64 2:1.2.2-1 [17.0 kB]
+Get:57 http://archive.ubuntu.com/ubuntu xenial/main amd64 x11proto-video-dev all 2.3.2-1 [17.5 kB]
+Get:58 http://archive.ubuntu.com/ubuntu xenial/main amd64 libxv-dev amd64 2:1.0.10-1 [32.4 kB]
+Get:59 http://archive.ubuntu.com/ubuntu xenial/main amd64 libxvmc1 amd64 2:1.0.9-1ubuntu1 [13.1 kB]
+Get:60 http://archive.ubuntu.com/ubuntu xenial/main amd64 libxvmc-dev amd64 2:1.0.9-1ubuntu1 [20.7 kB]
+Get:61 http://archive.ubuntu.com/ubuntu xenial/main amd64 libxcb-icccm4-dev amd64 0.4.1-1ubuntu1 [10.4 kB]
+Get:62 http://archive.ubuntu.com/ubuntu xenial/main amd64 libxcb-util1 amd64 0.4.0-0ubuntu3 [11.2 kB]
+Get:63 http://archive.ubuntu.com/ubuntu xenial/main amd64 libxcb-image0 amd64 0.4.0-1build1 [12.3 kB]
+Get:64 http://archive.ubuntu.com/ubuntu xenial/main amd64 libxcb-image0-dev amd64 0.4.0-1build1 [14.9 kB]
+Get:65 http://archive.ubuntu.com/ubuntu xenial/main amd64 libxcb-keysyms1-dev amd64 0.4.0-1 [6,046 B]
+Get:66 http://archive.ubuntu.com/ubuntu xenial/main amd64 libxcb-render-util0-dev amd64 0.3.9-1 [7,372 B]
+Get:67 http://archive.ubuntu.com/ubuntu xenial-updates/main amd64 uuid-dev amd64 2.27.1-6ubuntu3.10 [26.5 kB]
+debconf: delaying package configuration, since apt-utils is not installed
+Fetched 2,601 kB in 1s (1,884 kB/s)
+Selecting previously unselected package x11-common.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 18249 files and directories currently installed.)
+Preparing to unpack .../x11-common_1%3a7.7+13ubuntu3.1_all.deb ...
+dpkg-query: no packages found matching nux-tools
+Unpacking x11-common (1:7.7+13ubuntu3.1) ...
+Selecting previously unselected package libice6:amd64.
+Preparing to unpack .../libice6_2%3a1.0.9-1_amd64.deb ...
+Unpacking libice6:amd64 (2:1.0.9-1) ...
+Selecting previously unselected package libsm6:amd64.
+Preparing to unpack .../libsm6_2%3a1.2.2-1_amd64.deb ...
+Unpacking libsm6:amd64 (2:1.2.2-1) ...
+Selecting previously unselected package libxcomposite1:amd64.
+Preparing to unpack .../libxcomposite1_1%3a0.4.4-1_amd64.deb ...
+Unpacking libxcomposite1:amd64 (1:0.4.4-1) ...
+Selecting previously unselected package libxinerama1:amd64.
+Preparing to unpack .../libxinerama1_2%3a1.1.3-1_amd64.deb ...
+Unpacking libxinerama1:amd64 (2:1.1.3-1) ...
+Selecting previously unselected package libxres1:amd64.
+Preparing to unpack .../libxres1_2%3a1.0.7-1_amd64.deb ...
+Unpacking libxres1:amd64 (2:1.0.7-1) ...
+Selecting previously unselected package libxss1:amd64.
+Preparing to unpack .../libxss1_1%3a1.2.2-1_amd64.deb ...
+Unpacking libxss1:amd64 (1:1.2.2-1) ...
+Selecting previously unselected package libxtst6:amd64.
+Preparing to unpack .../libxtst6_2%3a1.2.2-1_amd64.deb ...
+Unpacking libxtst6:amd64 (2:1.2.2-1) ...
+Selecting previously unselected package libxv1:amd64.
+Preparing to unpack .../libxv1_2%3a1.0.10-1_amd64.deb ...
+Unpacking libxv1:amd64 (2:1.0.10-1) ...
+Selecting previously unselected package libxcb-icccm4:amd64.
+Preparing to unpack .../libxcb-icccm4_0.4.1-1ubuntu1_amd64.deb ...
+Unpacking libxcb-icccm4:amd64 (0.4.1-1ubuntu1) ...
+Selecting previously unselected package libxcb-keysyms1:amd64.
+Preparing to unpack .../libxcb-keysyms1_0.4.0-1_amd64.deb ...
+Unpacking libxcb-keysyms1:amd64 (0.4.0-1) ...
+Selecting previously unselected package libxcb-render-util0:amd64.
+Preparing to unpack .../libxcb-render-util0_0.3.9-1_amd64.deb ...
+Unpacking libxcb-render-util0:amd64 (0.3.9-1) ...
+Selecting previously unselected package libxmuu1:amd64.
+Preparing to unpack .../libxmuu1_2%3a1.1.2-2_amd64.deb ...
+Unpacking libxmuu1:amd64 (2:1.1.2-2) ...
+Selecting previously unselected package libfontenc1:amd64.
+Preparing to unpack .../libfontenc1_1%3a1.1.3-1_amd64.deb ...
+Unpacking libfontenc1:amd64 (1:1.1.3-1) ...
+Selecting previously unselected package zlib1g-dev:amd64.
+Preparing to unpack .../zlib1g-dev_1%3a1.2.8.dfsg-2ubuntu4.3_amd64.deb ...
+Unpacking zlib1g-dev:amd64 (1:1.2.8.dfsg-2ubuntu4.3) ...
+Selecting previously unselected package libfontenc-dev:amd64.
+Preparing to unpack .../libfontenc-dev_1%3a1.1.3-1_amd64.deb ...
+Unpacking libfontenc-dev:amd64 (1:1.1.3-1) ...
+Selecting previously unselected package libice-dev:amd64.
+Preparing to unpack .../libice-dev_2%3a1.0.9-1_amd64.deb ...
+Unpacking libice-dev:amd64 (2:1.0.9-1) ...
+Selecting previously unselected package libsm-dev:amd64.
+Preparing to unpack .../libsm-dev_2%3a1.2.2-1_amd64.deb ...
+Unpacking libsm-dev:amd64 (2:1.2.2-1) ...
+Selecting previously unselected package libxt6:amd64.
+Preparing to unpack .../libxt6_1%3a1.1.5-0ubuntu1_amd64.deb ...
+Unpacking libxt6:amd64 (1:1.1.5-0ubuntu1) ...
+Selecting previously unselected package libxmu6:amd64.
+Preparing to unpack .../libxmu6_2%3a1.1.2-2_amd64.deb ...
+Unpacking libxmu6:amd64 (2:1.1.2-2) ...
+Selecting previously unselected package libxpm4:amd64.
+Preparing to unpack .../libxpm4_1%3a3.5.11-1ubuntu0.16.04.1_amd64.deb ...
+Unpacking libxpm4:amd64 (1:3.5.11-1ubuntu0.16.04.1) ...
+Selecting previously unselected package libxaw7:amd64.
+Preparing to unpack .../libxaw7_2%3a1.0.13-1_amd64.deb ...
+Unpacking libxaw7:amd64 (2:1.0.13-1) ...
+Selecting previously unselected package libxt-dev:amd64.
+Preparing to unpack .../libxt-dev_1%3a1.1.5-0ubuntu1_amd64.deb ...
+Unpacking libxt-dev:amd64 (1:1.1.5-0ubuntu1) ...
+Selecting previously unselected package libxmu-headers.
+Preparing to unpack .../libxmu-headers_2%3a1.1.2-2_all.deb ...
+Unpacking libxmu-headers (2:1.1.2-2) ...
+Selecting previously unselected package libxmu-dev:amd64.
+Preparing to unpack .../libxmu-dev_2%3a1.1.2-2_amd64.deb ...
+Unpacking libxmu-dev:amd64 (2:1.1.2-2) ...
+Selecting previously unselected package libxpm-dev:amd64.
+Preparing to unpack .../libxpm-dev_1%3a3.5.11-1ubuntu0.16.04.1_amd64.deb ...
+Unpacking libxpm-dev:amd64 (1:3.5.11-1ubuntu0.16.04.1) ...
+Selecting previously unselected package libxaw7-dev:amd64.
+Preparing to unpack .../libxaw7-dev_2%3a1.0.13-1_amd64.deb ...
+Unpacking libxaw7-dev:amd64 (2:1.0.13-1) ...
+Selecting previously unselected package libxcb-shm0:amd64.
+Preparing to unpack .../libxcb-shm0_1.11.1-1ubuntu1_amd64.deb ...
+Unpacking libxcb-shm0:amd64 (1.11.1-1ubuntu1) ...
+Selecting previously unselected package libxcb-shm0-dev:amd64.
+Preparing to unpack .../libxcb-shm0-dev_1.11.1-1ubuntu1_amd64.deb ...
+Unpacking libxcb-shm0-dev:amd64 (1.11.1-1ubuntu1) ...
+Selecting previously unselected package libxcb-xinerama0:amd64.
+Preparing to unpack .../libxcb-xinerama0_1.11.1-1ubuntu1_amd64.deb ...
+Unpacking libxcb-xinerama0:amd64 (1.11.1-1ubuntu1) ...
+Selecting previously unselected package libxcb-xinerama0-dev:amd64.
+Preparing to unpack .../libxcb-xinerama0-dev_1.11.1-1ubuntu1_amd64.deb ...
+Unpacking libxcb-xinerama0-dev:amd64 (1.11.1-1ubuntu1) ...
+Selecting previously unselected package libxcb-xkb1:amd64.
+Preparing to unpack .../libxcb-xkb1_1.11.1-1ubuntu1_amd64.deb ...
+Unpacking libxcb-xkb1:amd64 (1.11.1-1ubuntu1) ...
+Selecting previously unselected package libxcb-xkb-dev:amd64.
+Preparing to unpack .../libxcb-xkb-dev_1.11.1-1ubuntu1_amd64.deb ...
+Unpacking libxcb-xkb-dev:amd64 (1.11.1-1ubuntu1) ...
+Selecting previously unselected package x11proto-composite-dev.
+Preparing to unpack .../x11proto-composite-dev_1%3a0.4.2-2_all.deb ...
+Unpacking x11proto-composite-dev (1:0.4.2-2) ...
+Selecting previously unselected package libxcomposite-dev.
+Preparing to unpack .../libxcomposite-dev_1%3a0.4.4-1_amd64.deb ...
+Unpacking libxcomposite-dev (1:0.4.4-1) ...
+Selecting previously unselected package libxrender1:amd64.
+Preparing to unpack .../libxrender1_1%3a0.9.9-0ubuntu1_amd64.deb ...
+Unpacking libxrender1:amd64 (1:0.9.9-0ubuntu1) ...
+Selecting previously unselected package libxcursor1:amd64.
+Preparing to unpack .../libxcursor1_1%3a1.1.14-1ubuntu0.16.04.2_amd64.deb ...
+Unpacking libxcursor1:amd64 (1:1.1.14-1ubuntu0.16.04.2) ...
+Selecting previously unselected package x11proto-render-dev.
+Preparing to unpack .../x11proto-render-dev_2%3a0.11.1-2_all.deb ...
+Unpacking x11proto-render-dev (2:0.11.1-2) ...
+Selecting previously unselected package libxrender-dev:amd64.
+Preparing to unpack .../libxrender-dev_1%3a0.9.9-0ubuntu1_amd64.deb ...
+Unpacking libxrender-dev:amd64 (1:0.9.9-0ubuntu1) ...
+Selecting previously unselected package libxcursor-dev:amd64.
+Preparing to unpack .../libxcursor-dev_1%3a1.1.14-1ubuntu0.16.04.2_amd64.deb ...
+Unpacking libxcursor-dev:amd64 (1:1.1.14-1ubuntu0.16.04.2) ...
+Selecting previously unselected package libxi6:amd64.
+Preparing to unpack .../libxi6_2%3a1.7.6-1_amd64.deb ...
+Unpacking libxi6:amd64 (2:1.7.6-1) ...
+Selecting previously unselected package libxi-dev.
+Preparing to unpack .../libxi-dev_2%3a1.7.6-1_amd64.deb ...
+Unpacking libxi-dev (2:1.7.6-1) ...
+Selecting previously unselected package x11proto-xinerama-dev.
+Preparing to unpack .../x11proto-xinerama-dev_1.2.1-2_all.deb ...
+Unpacking x11proto-xinerama-dev (1.2.1-2) ...
+Selecting previously unselected package libxinerama-dev:amd64.
+Preparing to unpack .../libxinerama-dev_2%3a1.1.3-1_amd64.deb ...
+Unpacking libxinerama-dev:amd64 (2:1.1.3-1) ...
+Selecting previously unselected package libxkbfile1:amd64.
+Preparing to unpack .../libxkbfile1_1%3a1.0.9-0ubuntu1_amd64.deb ...
+Unpacking libxkbfile1:amd64 (1:1.0.9-0ubuntu1) ...
+Selecting previously unselected package libxkbfile-dev:amd64.
+Preparing to unpack .../libxkbfile-dev_1%3a1.0.9-0ubuntu1_amd64.deb ...
+Unpacking libxkbfile-dev:amd64 (1:1.0.9-0ubuntu1) ...
+Selecting previously unselected package libxmuu-dev:amd64.
+Preparing to unpack .../libxmuu-dev_2%3a1.1.2-2_amd64.deb ...
+Unpacking libxmuu-dev:amd64 (2:1.1.2-2) ...
+Selecting previously unselected package libxrandr2:amd64.
+Preparing to unpack .../libxrandr2_2%3a1.5.0-1_amd64.deb ...
+Unpacking libxrandr2:amd64 (2:1.5.0-1) ...
+Selecting previously unselected package x11proto-randr-dev.
+Preparing to unpack .../x11proto-randr-dev_1.5.0-1_all.deb ...
+Unpacking x11proto-randr-dev (1.5.0-1) ...
+Selecting previously unselected package libxrandr-dev:amd64.
+Preparing to unpack .../libxrandr-dev_2%3a1.5.0-1_amd64.deb ...
+Unpacking libxrandr-dev:amd64 (2:1.5.0-1) ...
+Selecting previously unselected package x11proto-resource-dev.
+Preparing to unpack .../x11proto-resource-dev_1.2.0-3_all.deb ...
+Unpacking x11proto-resource-dev (1.2.0-3) ...
+Selecting previously unselected package libxres-dev.
+Preparing to unpack .../libxres-dev_2%3a1.0.7-1_amd64.deb ...
+Unpacking libxres-dev (2:1.0.7-1) ...
+Selecting previously unselected package x11proto-scrnsaver-dev.
+Preparing to unpack .../x11proto-scrnsaver-dev_1.2.2-1_all.deb ...
+Unpacking x11proto-scrnsaver-dev (1.2.2-1) ...
+Selecting previously unselected package libxss-dev:amd64.
+Preparing to unpack .../libxss-dev_1%3a1.2.2-1_amd64.deb ...
+Unpacking libxss-dev:amd64 (1:1.2.2-1) ...
+Selecting previously unselected package x11proto-record-dev.
+Preparing to unpack .../x11proto-record-dev_1.14.2-1_all.deb ...
+Unpacking x11proto-record-dev (1.14.2-1) ...
+Selecting previously unselected package libxtst-dev:amd64.
+Preparing to unpack .../libxtst-dev_2%3a1.2.2-1_amd64.deb ...
+Unpacking libxtst-dev:amd64 (2:1.2.2-1) ...
+Selecting previously unselected package x11proto-video-dev.
+Preparing to unpack .../x11proto-video-dev_2.3.2-1_all.deb ...
+Unpacking x11proto-video-dev (2.3.2-1) ...
+Selecting previously unselected package libxv-dev:amd64.
+Preparing to unpack .../libxv-dev_2%3a1.0.10-1_amd64.deb ...
+Unpacking libxv-dev:amd64 (2:1.0.10-1) ...
+Selecting previously unselected package libxvmc1:amd64.
+Preparing to unpack .../libxvmc1_2%3a1.0.9-1ubuntu1_amd64.deb ...
+Unpacking libxvmc1:amd64 (2:1.0.9-1ubuntu1) ...
+Selecting previously unselected package libxvmc-dev:amd64.
+Preparing to unpack .../libxvmc-dev_2%3a1.0.9-1ubuntu1_amd64.deb ...
+Unpacking libxvmc-dev:amd64 (2:1.0.9-1ubuntu1) ...
+Selecting previously unselected package libxcb-icccm4-dev:amd64.
+Preparing to unpack .../libxcb-icccm4-dev_0.4.1-1ubuntu1_amd64.deb ...
+Unpacking libxcb-icccm4-dev:amd64 (0.4.1-1ubuntu1) ...
+Selecting previously unselected package libxcb-util1:amd64.
+Preparing to unpack .../libxcb-util1_0.4.0-0ubuntu3_amd64.deb ...
+Unpacking libxcb-util1:amd64 (0.4.0-0ubuntu3) ...
+Selecting previously unselected package libxcb-image0:amd64.
+Preparing to unpack .../libxcb-image0_0.4.0-1build1_amd64.deb ...
+Unpacking libxcb-image0:amd64 (0.4.0-1build1) ...
+Selecting previously unselected package libxcb-image0-dev:amd64.
+Preparing to unpack .../libxcb-image0-dev_0.4.0-1build1_amd64.deb ...
+Unpacking libxcb-image0-dev:amd64 (0.4.0-1build1) ...
+Selecting previously unselected package libxcb-keysyms1-dev:amd64.
+Preparing to unpack .../libxcb-keysyms1-dev_0.4.0-1_amd64.deb ...
+Unpacking libxcb-keysyms1-dev:amd64 (0.4.0-1) ...
+Selecting previously unselected package libxcb-render-util0-dev:amd64.
+Preparing to unpack .../libxcb-render-util0-dev_0.3.9-1_amd64.deb ...
+Unpacking libxcb-render-util0-dev:amd64 (0.3.9-1) ...
+Selecting previously unselected package uuid-dev:amd64.
+Preparing to unpack .../uuid-dev_2.27.1-6ubuntu3.10_amd64.deb ...
+Unpacking uuid-dev:amd64 (2.27.1-6ubuntu3.10) ...
+Processing triggers for man-db (2.7.5-1) ...
+Processing triggers for systemd (229-4ubuntu21.31) ...
+Processing triggers for libc-bin (2.23-0ubuntu11.3) ...
+Setting up x11-common (1:7.7+13ubuntu3.1) ...
+debconf: unable to initialize frontend: Dialog
+debconf: (No usable dialog-like program is installed, so the dialog based frontend cannot be used. at /usr/share/perl5/Debconf/FrontEnd/Dialog.pm line 76.)
+debconf: falling back to frontend: Readline
+update-rc.d: warning: start and stop actions are no longer supported; falling back to defaults
+invoke-rc.d: could not determine current runlevel
+invoke-rc.d: policy-rc.d denied execution of start.
+Setting up libice6:amd64 (2:1.0.9-1) ...
+Setting up libsm6:amd64 (2:1.2.2-1) ...
+Setting up libxcomposite1:amd64 (1:0.4.4-1) ...
+Setting up libxinerama1:amd64 (2:1.1.3-1) ...
+Setting up libxres1:amd64 (2:1.0.7-1) ...
+Setting up libxss1:amd64 (1:1.2.2-1) ...
+Setting up libxtst6:amd64 (2:1.2.2-1) ...
+Setting up libxv1:amd64 (2:1.0.10-1) ...
+Setting up libxcb-icccm4:amd64 (0.4.1-1ubuntu1) ...
+Setting up libxcb-keysyms1:amd64 (0.4.0-1) ...
+Setting up libxcb-render-util0:amd64 (0.3.9-1) ...
+Setting up libxmuu1:amd64 (2:1.1.2-2) ...
+Setting up libfontenc1:amd64 (1:1.1.3-1) ...
+Setting up zlib1g-dev:amd64 (1:1.2.8.dfsg-2ubuntu4.3) ...
+Setting up libfontenc-dev:amd64 (1:1.1.3-1) ...
+Setting up libice-dev:amd64 (2:1.0.9-1) ...
+Setting up libsm-dev:amd64 (2:1.2.2-1) ...
+Setting up libxt6:amd64 (1:1.1.5-0ubuntu1) ...
+Setting up libxmu6:amd64 (2:1.1.2-2) ...
+Setting up libxpm4:amd64 (1:3.5.11-1ubuntu0.16.04.1) ...
+Setting up libxaw7:amd64 (2:1.0.13-1) ...
+Setting up libxt-dev:amd64 (1:1.1.5-0ubuntu1) ...
+Setting up libxmu-headers (2:1.1.2-2) ...
+Setting up libxmu-dev:amd64 (2:1.1.2-2) ...
+Setting up libxpm-dev:amd64 (1:3.5.11-1ubuntu0.16.04.1) ...
+Setting up libxaw7-dev:amd64 (2:1.0.13-1) ...
+Setting up libxcb-shm0:amd64 (1.11.1-1ubuntu1) ...
+Setting up libxcb-shm0-dev:amd64 (1.11.1-1ubuntu1) ...
+Setting up libxcb-xinerama0:amd64 (1.11.1-1ubuntu1) ...
+Setting up libxcb-xinerama0-dev:amd64 (1.11.1-1ubuntu1) ...
+Setting up libxcb-xkb1:amd64 (1.11.1-1ubuntu1) ...
+Setting up libxcb-xkb-dev:amd64 (1.11.1-1ubuntu1) ...
+Setting up x11proto-composite-dev (1:0.4.2-2) ...
+Setting up libxcomposite-dev (1:0.4.4-1) ...
+Setting up libxrender1:amd64 (1:0.9.9-0ubuntu1) ...
+Setting up libxcursor1:amd64 (1:1.1.14-1ubuntu0.16.04.2) ...
+Setting up x11proto-render-dev (2:0.11.1-2) ...
+Setting up libxrender-dev:amd64 (1:0.9.9-0ubuntu1) ...
+Setting up libxcursor-dev:amd64 (1:1.1.14-1ubuntu0.16.04.2) ...
+Setting up libxi6:amd64 (2:1.7.6-1) ...
+Setting up libxi-dev (2:1.7.6-1) ...
+Setting up x11proto-xinerama-dev (1.2.1-2) ...
+Setting up libxinerama-dev:amd64 (2:1.1.3-1) ...
+Setting up libxkbfile1:amd64 (1:1.0.9-0ubuntu1) ...
+Setting up libxkbfile-dev:amd64 (1:1.0.9-0ubuntu1) ...
+Setting up libxmuu-dev:amd64 (2:1.1.2-2) ...
+Setting up libxrandr2:amd64 (2:1.5.0-1) ...
+Setting up x11proto-randr-dev (1.5.0-1) ...
+Setting up libxrandr-dev:amd64 (2:1.5.0-1) ...
+Setting up x11proto-resource-dev (1.2.0-3) ...
+Setting up libxres-dev (2:1.0.7-1) ...
+Setting up x11proto-scrnsaver-dev (1.2.2-1) ...
+Setting up libxss-dev:amd64 (1:1.2.2-1) ...
+Setting up x11proto-record-dev (1.14.2-1) ...
+Setting up libxtst-dev:amd64 (2:1.2.2-1) ...
+Setting up x11proto-video-dev (2.3.2-1) ...
+Setting up libxv-dev:amd64 (2:1.0.10-1) ...
+Setting up libxvmc1:amd64 (2:1.0.9-1ubuntu1) ...
+Setting up libxvmc-dev:amd64 (2:1.0.9-1ubuntu1) ...
+Setting up libxcb-icccm4-dev:amd64 (0.4.1-1ubuntu1) ...
+Setting up libxcb-util1:amd64 (0.4.0-0ubuntu3) ...
+Setting up libxcb-image0:amd64 (0.4.0-1build1) ...
+Setting up libxcb-image0-dev:amd64 (0.4.0-1build1) ...
+Setting up libxcb-keysyms1-dev:amd64 (0.4.0-1) ...
+Setting up libxcb-render-util0-dev:amd64 (0.3.9-1) ...
+Setting up uuid-dev:amd64 (2.27.1-6ubuntu3.10) ...
+Processing triggers for systemd (229-4ubuntu21.31) ...
+Processing triggers for libc-bin (2.23-0ubuntu11.3) ...
+dpkg-query: no packages found matching libxcb-util-dev
+Hit:1 http://ppa.launchpad.net/git-core/ppa/ubuntu xenial InRelease
+Hit:2 http://security.ubuntu.com/ubuntu xenial-security InRelease
+Hit:3 http://archive.ubuntu.com/ubuntu xenial InRelease
+Hit:4 http://archive.ubuntu.com/ubuntu xenial-updates InRelease
+Hit:5 http://archive.ubuntu.com/ubuntu xenial-backports InRelease
+Reading package lists...
+Reading package lists...
+Building dependency tree...
+Reading state information...
+The following NEW packages will be installed:
+  libxcb-util-dev
+0 upgraded, 1 newly installed, 0 to remove and 2 not upgraded.
+Need to get 9,974 B of archives.
+After this operation, 71.7 kB of additional disk space will be used.
+Get:1 http://archive.ubuntu.com/ubuntu xenial/main amd64 libxcb-util-dev amd64 0.4.0-0ubuntu3 [9,974 B]
+debconf: delaying package configuration, since apt-utils is not installed
+Fetched 9,974 B in 0s (62.8 kB/s)
+Selecting previously unselected package libxcb-util-dev:amd64.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 19360 files and directories currently installed.)
+Preparing to unpack .../libxcb-util-dev_0.4.0-0ubuntu3_amd64.deb ...
+Unpacking libxcb-util-dev:amd64 (0.4.0-0ubuntu3) ...
+Setting up libxcb-util-dev:amd64 (0.4.0-0ubuntu3) ...
+autoconf/2.71: Defining AC_MACRODIR environment variable: /home/conan/.conan/data/autoconf/2.71/_/_/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/res/autoconf
+autoconf/2.71: Defining AUTOM4TE_PERLLIBDIR environment variable: /home/conan/.conan/data/autoconf/2.71/_/_/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/res/autoconf
+autoconf/2.71: Defining AUTOCONF environment variable: /home/conan/.conan/data/autoconf/2.71/_/_/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/bin/autoconf
+autoconf/2.71: Defining AUTORECONF environment variable: /home/conan/.conan/data/autoconf/2.71/_/_/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/bin/autoreconf
+autoconf/2.71: Defining AUTOHEADER environment variable: /home/conan/.conan/data/autoconf/2.71/_/_/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/bin/autoheader
+autoconf/2.71: Defining AUTOM4TE environment variable: /home/conan/.conan/data/autoconf/2.71/_/_/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/bin/autom4te
+bison/3.8.2: Setting BISON_ROOT environment variable: /home/conan/.conan/data/bison/3.8.2/_/_/package/30a96fe53c3e98a98796c7cef11032c83754d473
+bison/3.8.2: Appending PATH environment variable: /home/conan/.conan/data/bison/3.8.2/_/_/package/30a96fe53c3e98a98796c7cef11032c83754d473/bin
+bison/3.8.2: Setting the BISON_PKGDATADIR environment variable: /home/conan/.conan/data/bison/3.8.2/_/_/package/30a96fe53c3e98a98796c7cef11032c83754d473/res/bison
+ccache/4.6: Appending PATH environment variable: /home/conan/.conan/data/ccache/4.6/_/_/package/4e9a94dd29b7acfa5907f316bf127912ba258d11/bin
+cmake/3.25.0: Appending PATH environment variable: /home/conan/.conan/data/cmake/3.25.0/_/_/package/5c09c752508b674ca5cb1f2d327b5a2d582866c8/bin
+libxml2/2.10.3: Appending PATH environment variable: /home/conan/.conan/data/libxml2/2.10.3/_/_/package/ef73374486ad1894a99815dc78ddec5b517ae320/bin
+libxml2/2.10.3: Appending PATH environment variable: /home/conan/.conan/data/libxml2/2.10.3/_/_/package/ef73374486ad1894a99815dc78ddec5b517ae320/bin
+pcre/8.45: Appending PATH environment variable: /home/conan/.conan/data/pcre/8.45/_/_/package/95c3c559337923e10e8b01075ae10c7bdcebf915/bin
+pcre2/10.40: Appending PATH environment variable: /home/conan/.conan/data/pcre2/10.40/_/_/package/63e2e082db68514d73a3597341e8a175e002e762/bin
+automake/1.16.5: Appending PATH environment variable:: /home/conan/.conan/data/automake/1.16.5/_/_/package/258f6f05ca54813b3d7180161753df7f9ccf7e1d/bin
+automake/1.16.5: Appending ACLOCAL environment variable with: /home/conan/.conan/data/automake/1.16.5/_/_/package/258f6f05ca54813b3d7180161753df7f9ccf7e1d/bin/aclocal
+automake/1.16.5: Setting AUTOMAKE_DATADIR to /home/conan/.conan/data/automake/1.16.5/_/_/package/258f6f05ca54813b3d7180161753df7f9ccf7e1d/res
+automake/1.16.5: Setting AUTOMAKE_LIBDIR to /home/conan/.conan/data/automake/1.16.5/_/_/package/258f6f05ca54813b3d7180161753df7f9ccf7e1d/res/automake-1.16
+automake/1.16.5: Setting AUTOMAKE_PERLLIBDIR to /home/conan/.conan/data/automake/1.16.5/_/_/package/258f6f05ca54813b3d7180161753df7f9ccf7e1d/res/automake-1.16
+automake/1.16.5: Setting AUTOMAKE to /home/conan/.conan/data/automake/1.16.5/_/_/package/258f6f05ca54813b3d7180161753df7f9ccf7e1d/bin/automake
+automake/1.16.5: Append M4 include directories to AUTOMAKE_CONAN_INCLUDES environment variable
+cppcheck/2.7.5: Append /home/conan/.conan/data/cppcheck/2.7.5/_/_/package/15b4d99e258c25c2127264c9648f880e2c8d58d0/bin to environment variable PATH
+swig/4.0.2: Appending PATH environment variable: /home/conan/.conan/data/swig/4.0.2/_/_/package/ecb2d71ae4bad3b51dade00ec89140273402b5d7/bin
+wayland/1.21.0: Appending PATH environment variable: /home/conan/.conan/data/wayland/1.21.0/_/_/package/e03b7a95afb3f8592db7fbbfc064dda3c6b2962a/bin
+wayland/1.21.0: Appending PATH environment variable: /home/conan/.conan/data/wayland/1.21.0/_/_/package/e03b7a95afb3f8592db7fbbfc064dda3c6b2962a/bin
+fontconfig/2.13.93: Creating FONTCONFIG_FILE environment variable: /home/conan/.conan/data/fontconfig/2.13.93/_/_/package/d8858e187cb415894861d32e891e69d5d34c2e1a/bin/etc/fonts/fonts.conf
+fontconfig/2.13.93: Creating FONTCONFIG_PATH environment variable: /home/conan/.conan/data/fontconfig/2.13.93/_/_/package/d8858e187cb415894861d32e891e69d5d34c2e1a/bin/etc/fonts
+libtool/2.4.7: Appending PATH env: /home/conan/.conan/data/libtool/2.4.7/_/_/package/9a742fb357948de0898e8481664b356888dece9e/bin
+libtool/2.4.7: Setting LIBTOOLIZE env to /home/conan/.conan/data/libtool/2.4.7/_/_/package/9a742fb357948de0898e8481664b356888dece9e/bin/libtoolize
+libtool/2.4.7: Setting LIBTOOL_PREFIX environment variable to /home/conan/.conan/data/libtool/2.4.7/_/_/package/9a742fb357948de0898e8481664b356888dece9e
+libtool/2.4.7: Setting LIBTOOL_DATADIR environment variable to /home/conan/.conan/data/libtool/2.4.7/_/_/package/9a742fb357948de0898e8481664b356888dece9e/res
+libtool/2.4.7: Setting LIBTOOL_PKGAUXDIR environment variable to /home/conan/.conan/data/libtool/2.4.7/_/_/package/9a742fb357948de0898e8481664b356888dece9e/res/libtool/build-aux
+libtool/2.4.7: Setting LIBTOOL_PKGLTDLDIR environment variable to /home/conan/.conan/data/libtool/2.4.7/_/_/package/9a742fb357948de0898e8481664b356888dece9e/res/libtool
+libtool/2.4.7: Setting LIBTOOL_ACLOCALDIR environment variable to /home/conan/.conan/data/libtool/2.4.7/_/_/package/9a742fb357948de0898e8481664b356888dece9e/res/aclocal
+libtool/2.4.7: Appending ACLOCAL_PATH env: /home/conan/.conan/data/libtool/2.4.7/_/_/package/9a742fb357948de0898e8481664b356888dece9e/res/aclocal
+libtool/2.4.7: Appending AUTOMAKE_CONAN_INCLUDES environment variable: /home/conan/.conan/data/libtool/2.4.7/_/_/package/9a742fb357948de0898e8481664b356888dece9e/res/aclocal
+xkbcommon/1.4.1: Applying build-requirement: meson/0.64.1
+xkbcommon/1.4.1: Applying build-requirement: bison/3.8.2
+xkbcommon/1.4.1: Applying build-requirement: pkgconf/1.9.3
+xkbcommon/1.4.1: Applying build-requirement: wayland/1.21.0
+xkbcommon/1.4.1: Applying build-requirement: wayland-protocols/1.27
+xkbcommon/1.4.1: Applying build-requirement: ninja/1.11.1
+xkbcommon/1.4.1: Applying build-requirement: m4/1.4.19
+xkbcommon/1.4.1: Applying build-requirement: libffi/3.4.3
+xkbcommon/1.4.1: Applying build-requirement: libxml2/2.10.3
+xkbcommon/1.4.1: Applying build-requirement: expat/2.5.0
+xkbcommon/1.4.1: Applying build-requirement: zlib/1.2.13
+xkbcommon/1.4.1: Applying build-requirement: libiconv/1.17
+xkbcommon/1.4.1: Configuring sources in /home/conan/.conan/data/xkbcommon/1.4.1/_/_/source/src
+xkbcommon/1.4.1: 
+xkbcommon/1.4.1: Copying sources to build folder
+xkbcommon/1.4.1: Building your package in /home/conan/.conan/data/xkbcommon/1.4.1/_/_/build/32f30edd12cd947a8e026711c233844c6677ddbe
+xkbcommon/1.4.1: Generator txt created conanbuildinfo.txt
+xkbcommon/1.4.1: Calling generate()
+xkbcommon/1.4.1: Aggregating env generators
+xkbcommon/1.4.1: Calling build()
+xkbcommon/1.4.1: Meson configure cmd: meson setup --native-file "/home/conan/.conan/data/xkbcommon/1.4.1/_/_/build/32f30edd12cd947a8e026711c233844c6677ddbe/build-release/conan/conan_meson_native.ini" "/home/conan/.conan/data/xkbcommon/1.4.1/_/_/build/32f30edd12cd947a8e026711c233844c6677ddbe/build-release" "/home/conan/.conan/data/xkbcommon/1.4.1/_/_/build/32f30edd12cd947a8e026711c233844c6677ddbe/src" -Dprefix="/home/conan/.conan/data/xkbcommon/1.4.1/_/_/package/32f30edd12cd947a8e026711c233844c6677ddbe"
+The Meson build system
+Version: 0.64.1
+Source dir: /home/conan/.conan/data/xkbcommon/1.4.1/_/_/build/32f30edd12cd947a8e026711c233844c6677ddbe/src
+Build dir: /home/conan/.conan/data/xkbcommon/1.4.1/_/_/build/32f30edd12cd947a8e026711c233844c6677ddbe/build-release
+Build type: native build
+Project name: libxkbcommon
+Project version: 1.4.1
+C compiler for the host machine: gcc (gcc 8.4.0 "gcc (GCC) 8.4.0")
+C linker for the host machine: gcc ld.bfd 2.37
+Host machine cpu family: x86_64
+Host machine cpu: x86_64
+Compiler for C supports arguments -fno-strict-aliasing: YES 
+Compiler for C supports arguments -fsanitize-undefined-trap-on-error: YES 
+Compiler for C supports arguments -Wno-unused-parameter: YES 
+Compiler for C supports arguments -Wno-missing-field-initializers: YES 
+Compiler for C supports arguments -Wpointer-arith: YES 
+Compiler for C supports arguments -Wmissing-declarations: YES 
+Compiler for C supports arguments -Wformat=2: YES 
+Compiler for C supports arguments -Wstrict-prototypes: YES 
+Compiler for C supports arguments -Wmissing-prototypes: YES 
+Compiler for C supports arguments -Wnested-externs: YES 
+Compiler for C supports arguments -Wbad-function-cast: YES 
+Compiler for C supports arguments -Wshadow: YES 
+Compiler for C supports arguments -Wlogical-op: YES 
+Compiler for C supports arguments -Wdate-time: YES 
+Compiler for C supports arguments -Wwrite-strings: YES 
+Compiler for C supports arguments -Wno-documentation-deprecated-sync: NO 
+../src/meson.build:36: WARNING: Consider using the built-in option for sanitizers instead of using "-fsanitize-undefined-trap-on-error".
+Found pkg-config: /home/conan/.conan/data/pkgconf/1.9.3/_/_/package/24647d9fe8ec489125dfbae4b3ebefaf7581674c/bin/pkgconf (1.9.3)
+Run-time dependency xkeyboard-config found: YES 2.16
+Has header "unistd.h" : YES 
+Checking if "__builtin_expect" : links: YES 
+Header "unistd.h" has symbol "eaccess" : YES 
+Header "unistd.h" has symbol "euidaccess" : YES 
+Header "sys/mman.h" has symbol "mmap" : YES 
+Header "stdlib.h" has symbol "mkostemp" : YES 
+Header "fcntl.h" has symbol "posix_fallocate" : YES 
+Header "string.h" has symbol "strndup" : YES 
+Header "stdio.h" has symbol "asprintf" : YES 
+Header "stdlib.h" has symbol "secure_getenv" : YES 
+Header "limits.h" has symbol "PATH_MAX" : YES 
+Checking if "-Wl,--version-script" : links: YES 
+Program scripts/map-to-def found: YES (/home/conan/.conan/data/xkbcommon/1.4.1/_/_/build/32f30edd12cd947a8e026711c233844c6677ddbe/src/scripts/map-to-def)
+Program bison found: YES (/home/conan/.conan/data/bison/3.8.2/_/_/package/30a96fe53c3e98a98796c7cef11032c83754d473/bin/bison)
+Run-time dependency xcb found: YES 1.11.1
+Run-time dependency xcb-xkb found: YES 1.11.1
+Run-time dependency libxml-2.0 found: YES 2.10.3
+Header "getopt.h" has symbol "getopt_long" : YES 
+Has header "linux/input.h" : YES 
+Run-time dependency wayland-client found: YES 1.21.0
+Found pkg-config: /home/conan/.conan/data/pkgconf/1.9.3/_/_/package/24647d9fe8ec489125dfbae4b3ebefaf7581674c/bin/pkgconf (1.9.3)
+Build-time dependency wayland-protocols_build found: YES 1.27
+Build-time dependency wayland-scanner_build found: YES 1.21.0
+Program /home/conan/.conan/data/wayland/1.21.0/_/_/package/e03b7a95afb3f8592db7fbbfc064dda3c6b2962a/bin/wayland-scanner found: YES (/home/conan/.conan/data/wayland/1.21.0/_/_/package/e03b7a95afb3f8592db7fbbfc064dda3c6b2962a/bin/wayland-scanner)
+Configuring xkeyboard-config-test using configuration
+Configuring test-config.h using configuration
+Program test/symbols-leak-test.py found: YES (/home/conan/.conan/data/xkbcommon/1.4.1/_/_/build/32f30edd12cd947a8e026711c233844c6677ddbe/src/test/symbols-leak-test.py)
+Program test/tool-option-parsing.py found: YES (/home/conan/.conan/data/xkbcommon/1.4.1/_/_/build/32f30edd12cd947a8e026711c233844c6677ddbe/src/test/tool-option-parsing.py)
+Program test/test-keysym.py found: YES (/home/conan/.conan/data/xkbcommon/1.4.1/_/_/build/32f30edd12cd947a8e026711c233844c6677ddbe/src/test/test-keysym.py)
+Program valgrind found: NO
+Message: valgrind not found, disabling valgrind test setup
+Configuring config.h using configuration
+Build targets in project: 42
+NOTICE: Future-deprecated features used:
+ * 0.56.0: {'meson.build_root', 'meson.source_root', 'dependency.get_pkgconfig_variable'}
+
+libxkbcommon 1.4.1
+
+  User defined options
+    Native files: /home/conan/.conan/data/xkbcommon/1.4.1/_/_/build/32f30edd12cd947a8e026711c233844c6677ddbe/build-release/conan/conan_meson_native.ini
+    prefix      : /home/conan/.conan/data/xkbcommon/1.4.1/_/_/package/32f30edd12cd947a8e026711c233844c6677ddbe
+
+Found ninja-1.11.1 at /home/conan/.conan/data/ninja/1.11.1/_/_/package/24647d9fe8ec489125dfbae4b3ebefaf7581674c/bin/ninja
+Generating targets:   0%|                                                    | 0/42 [00:00<?, ?it/s]Generating targets:  33%|██████████████                            | 14/42 [00:00<00:00, 122.56it/s]                                                                                                    Writing build.ninja:   0%|                                                  | 0/219 [00:00<?, ?it/s]                                                                                                    xkbcommon/1.4.1: Meson build cmd: meson compile -C "/home/conan/.conan/data/xkbcommon/1.4.1/_/_/build/32f30edd12cd947a8e026711c233844c6677ddbe/build-release" -j2
+[1/195] Generating from 'src/xkbcomp/parser.y'..
+FAILED: libxkbcommon.a.p/parser.c libxkbcommon.a.p/parser.h 
+/home/conan/.conan/data/bison/3.8.2/_/_/package/30a96fe53c3e98a98796c7cef11032c83754d473/bin/bison --defines=libxkbcommon.a.p/parser.h -o libxkbcommon.a.p/parser.c -p _xkbcommon_ ../src/src/xkbcomp/parser.y
+/home/conan/.conan/data/bison/3.8.2/_/_/package/30a96fe53c3e98a98796c7cef11032c83754d473/bin/bison: /lib/x86_64-linux-gnu/libc.so.6: version `GLIBC_2.26' not found (required by /home/conan/.conan/data/bison/3.8.2/_/_/package/30a96fe53c3e98a98796c7cef11032c83754d473/bin/bison)
+[2/195] Compiling C object libxkbregistry.a.p/src_registry.c.o
+ninja: build stopped: subcommand failed.
+INFO: autodetecting backend as ninja
+INFO: calculating backend command to run: /home/conan/.conan/data/ninja/1.11.1/_/_/package/24647d9fe8ec489125dfbae4b3ebefaf7581674c/bin/ninja -j 2
+xkbcommon/1.4.1: 
+WARN: Remotes registry file missing, creating default one in /home/conan/.conan/remotes.json
+WARN: freetype/2.12.1: requirement libpng/1.6.39 overridden by qt/5.15.7 to libpng/1.6.38 
+xkbcommon/1.4.1: ERROR: Package '32f30edd12cd947a8e026711c233844c6677ddbe' build failed
+xkbcommon/1.4.1: WARN: Build folder /home/conan/.conan/data/xkbcommon/1.4.1/_/_/build/32f30edd12cd947a8e026711c233844c6677ddbe/build-release
+ERROR: xkbcommon/1.4.1: Error in build() method, line 145
+	meson.build()
+	ConanException: Error 1 while executing meson compile -C "/home/conan/.conan/data/xkbcommon/1.4.1/_/_/build/32f30edd12cd947a8e026711c233844c6677ddbe/build-release" -j2
