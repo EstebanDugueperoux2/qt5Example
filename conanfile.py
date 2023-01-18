@@ -1,6 +1,7 @@
 from conan import ConanFile
 from conan.tools.cmake import CMakeToolchain, CMake, CMakeDeps, cmake_layout
-
+from conan.tools.files import rm
+from conans import tools
 
 class Qt5ExampleConan(ConanFile):
     name = "qt5Example"
@@ -14,14 +15,14 @@ class Qt5ExampleConan(ConanFile):
     topics = ("<Put some tag here>", "<here>", "<and here>")
 
     requires = (
-        "qt/5.15.7"
+        "qt/5.15.8"
     )
 
-    tool_requires = ("cmake/3.25.0",
+    tool_requires = ("cmake/3.25.1",
                 "ninja/1.11.0",
                 "ccache/4.6",
                 "swig/4.0.2",
-                "cppcheck/2.7.5"
+                "cppcheck/2.9.3"
                 )
 
     # Binary configuration
@@ -53,6 +54,15 @@ class Qt5ExampleConan(ConanFile):
                     #    "qt:gui": True,
                     #    "qt:widgets": True,
                     #    "qt:qtwayland": True
+                    "qt:shared": True,
+                    "qt:with_glib": False,
+                    "qt:with_sqlite3": False,
+                    "qt:with_mysql": False,
+                    "qt:with_pq": False,
+                    "qt:with_odbc": False,
+                    "qt:qtsvg": True,
+                    "qt:qtwayland": True,
+                    "qt:opengl": "no",
     }
 
     # Sources are located in the same place as this recipe, copy them to the recipe
