@@ -15,18 +15,40 @@ class Qt5ExampleConsumerConan(ConanFile):
 
     # Binary configuration
     settings = "os", "compiler", "build_type", "arch"
+    
+    options = {
+        "shared": [True, False],
+        "fPIC": [True, False],
+    }
 
-    requires = "qt5Example/0.0.1"
+    default_options = {
+        "shared": False,
+        "fPIC": True,
+        # "qt:shared": True,
+        # "qt:with_glib": False,
+        # "qt:with_sqlite3": False,
+        # "qt:with_mysql": False,
+        # "qt:with_pq": False,
+        # "qt:with_odbc": False,
+        # "qt:qtsvg": True,
+        "qt:qtwayland": True,
+    }
 
     # Sources are located in the same place as this recipe, copy them to the recipe
     exports_sources = "CMakeLists.txt", "src/*", "include/*"
+
+    def requirements(self):
+        self.requires("qt5Example/0.0.1")
 
     def layout(self):
         cmake_layout(self)
 
     def generate(self):
-        tc = CMakeToolchain(self)
+        tc = CMakeToolchain(self, generator="Ninja")
         tc.generate()
+
+        deps = CMakeDeps(self)
+        deps.generate()
 
     def build(self):
         cmake = CMake(self)

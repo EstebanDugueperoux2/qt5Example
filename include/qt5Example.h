@@ -1,1 +1,1 @@
-int qt5Example(int argc, char *argv[]);
+QString qt5Example(int argc, char *argv[]);
