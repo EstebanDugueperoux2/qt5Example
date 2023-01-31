@@ -1,20 +1,8 @@
+
 toolchain=/usr/arm-linux-gnueabihf
 target_host=arm-linux-gnueabihf
 cc_compiler=gcc
 cxx_compiler=g++
-
-[env]
-CONAN_CMAKE_FIND_ROOT_PATH=$toolchain
-PATH=[$toolchain/bin]
-CHOST=$target_host
-AR=$target_host-ar
-AS=$target_host-as
-RANLIB=$target_host-ranlib
-CC=$target_host-$cc_compiler
-CXX=$target_host-$cxx_compiler
-STRIP=$target_host-strip
-RC=$target_host-windres
-S_OS_LEVEL=S_LINUX_2_6_37
 
 [settings]
 os=Linux
@@ -24,6 +12,39 @@ compiler.version=7
 compiler.libcxx=libstdc++11
 build_type=Release
 
-[options]
+[env]
+CONAN_CMAKE_FIND_ROOT_PATH=$toolchain
+CONAN_CMAKE_SYSROOT=$toolchain
+CONAN_CMAKE_SYSTEM_NAME=Linux
+CONAN_CMAKE_SYSTEM_PROCESSOR=armv7
+CONAN_CMAKE_FIND_ROOT_PATH_MODE_PROGRAM=Never
 
-[build_requires]
+CHOST=$target_host
+AR=$target_host-ar
+AS=$target_host-as
+CC=$target_host-$cc_compiler
+CXX=$target_host-$cxx_compiler
+LD=$target_host-ld
+NM=$target_host-nm
+OBJCOPY=$target_host-objcopy
+OBJDUMP=$target_host-objdump
+RANLIB=$target_host-ranlib
+STRIP=$target_host-strip
+
+#[options]
+#qt:cross_compile=arm-linux-gnueabihf-
+#qt:sysroot=/usr/arm-linux-gnueabihf
+#qt:device=linux-rasp-pi4-v3d-g++
+#qt:config=-device-option DISTRO_OPTS=hard-float -extprefix
+
+[options]
+xkbcommon:with_x11=False
+qt:cross_compile=/usr/bin/arm-linux-gnueabihf-
+qt:device=linux-arm-generic-g++
+qt:config=-device-option DISTRO_OPTS=hard-float
+#qt:sysroot=$SYSROOT
+qt:qtx11extras=False
+qt:opengl=no
+
+
+

@@ -22,11 +22,11 @@ class Qt5ExampleConan(ConanFile):
     default_options = {
         "shared": True,
         "fPIC": True,
-        "qt:cross_compile": "/usr/bin/arm-linux-gnueabihf-",
-        "qt:device": "linux-arm-generic-g++",
-        "qt:config": "-device-option DISTRO_OPTS=hard-float -extprefix",
-        "qt:sysroot": "/usr/arm-linux-gnueabihf/",
-        "qt:qtx11extras": False,
+        # "qt:cross_compile": "/usr/bin/arm-linux-gnueabihf-",
+        # "qt:device": "linux-arm-generic-g++",
+        # "qt:config": "-device-option DISTRO_OPTS=hard-float -extprefix",
+        # "qt:sysroot": "/usr/arm-linux-gnueabihf/",
+        # "qt:qtx11extras": False,
         
         "qt:shared": True,
         "qt:opengl": "no",
