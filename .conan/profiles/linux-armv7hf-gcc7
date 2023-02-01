@@ -31,12 +31,6 @@ OBJDUMP=$target_host-objdump
 RANLIB=$target_host-ranlib
 STRIP=$target_host-strip
 
-#[options]
-#qt:cross_compile=arm-linux-gnueabihf-
-#qt:sysroot=/usr/arm-linux-gnueabihf
-#qt:device=linux-rasp-pi4-v3d-g++
-#qt:config=-device-option DISTRO_OPTS=hard-float -extprefix
-
 [options]
 xkbcommon:with_x11=False
 qt:cross_compile=/usr/bin/arm-linux-gnueabihf-
