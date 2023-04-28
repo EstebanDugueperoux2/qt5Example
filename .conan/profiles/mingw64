@@ -1,0 +1,13 @@
+[settings]
+os=Windows
+arch=x86_64
+compiler=gcc
+build_type=Release
+compiler.cppstd=11
+compiler.libcxx=libstdc++11
+compiler.version=7
+[buildenv]
+# For ubuntu env
+CC=x86_64-w64-mingw32-gcc
+CXX=x86_64-w64-mingw32-g++
+LD=x86_64-w64-mingw32-ld

@@ -2,8 +2,8 @@ from conan import ConanFile
 from conan.tools.cmake import CMakeToolchain, CMakeDeps, CMake, cmake_layout
 from conan.tools.files import rm
 
-class Qt5ExampleConan(ConanFile):
-    name = "qt5Example"
+class qt5exampleConan(ConanFile):
+    name = "qt5example"
     version = "0.0.1"
 
     # Optional metadata
@@ -20,24 +20,17 @@ class Qt5ExampleConan(ConanFile):
     }
 
     default_options = {
-        "shared": False,
+        "shared": True,
         "fPIC": True,
-        "qt:shared": True,
-        "qt:gui": False,
-        "qt:widgets": False,
-        "qt:with_sqlite3": False,
-        "qt:with_mysql": False,
-        "qt:with_pq": False,
-        "qt:with_odbc": False,
     }
 
     # Sources are located in the same place as this recipe, copy them to the recipe
     exports_sources = "CMakeLists.txt", "src/*", "include/*"
     
     def requirements(self):
-        self.requires('boost/1.69.0')
-        self.requires('qt/5.15.8')
-        self.requires("zlib/1.2.12", override=True)
+        self.requires('boost/1.81.0')
+        # self.requires('qt/5.15.8')
+        # self.requires("zlib/1.2.12", override=True)
 
     def build_requirements(self):
         self.tool_requires("cmake/3.25.1")
