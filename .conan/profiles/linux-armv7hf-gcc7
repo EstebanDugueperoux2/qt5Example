@@ -3,55 +3,25 @@ os=Linux
 arch=armv7hf
 compiler=gcc
 build_type=Release
-compiler.cppstd=11
+compiler.cppstd=17
 compiler.libcxx=libstdc++11
 compiler.version=7
+
 [buildenv]
 # For ubuntu env
 CC=arm-linux-gnueabihf-gcc
 CXX=arm-linux-gnueabihf-g++
-LD=arm-linux-gnueabihf-ld
 
-# toolchain=/usr/arm-linux-gnueabihf
-# target_host=arm-linux-gnueabihf
-# cc_compiler=gcc
-# cxx_compiler=g++
-
-# [settings]
-# os=Linux
-# arch=armv7hf
-# compiler=gcc
-# compiler.version=7
-# compiler.libcxx=libstdc++11
-# build_type=Release
-
-# [env]
-# CONAN_CMAKE_FIND_ROOT_PATH=$toolchain
-# CONAN_CMAKE_SYSROOT=$toolchain
-# CONAN_CMAKE_SYSTEM_NAME=Linux
-# CONAN_CMAKE_SYSTEM_PROCESSOR=armv7
-# CONAN_CMAKE_FIND_ROOT_PATH_MODE_PROGRAM=Never
-
-# CHOST=$target_host
-# AR=$target_host-ar
-# AS=$target_host-as
-# CC=$target_host-$cc_compiler
-# CXX=$target_host-$cxx_compiler
-# LD=$target_host-ld
-# NM=$target_host-nm
-# OBJCOPY=$target_host-objcopy
-# OBJDUMP=$target_host-objdump
-# RANLIB=$target_host-ranlib
-# STRIP=$target_host-strip
-
-# [options]
-# xkbcommon:with_x11=False
-# qt:cross_compile=/usr/bin/arm-linux-gnueabihf-
-# qt:device=linux-arm-generic-g++
-# qt:config=-device-option DISTRO_OPTS=hard-float
-# #qt:sysroot=$SYSROOT
-# qt:qtx11extras=False
-# qt:opengl=no
-
+#[options]
+#qt:cross_compile=/usr/bin/arm-linux-gnueabihf-
+#qt:device=linux-arm-generic-g++
+#qt:config=-device-option DISTRO_OPTS=hard-float
+#qt:qtx11extras=False
+#qt:opengl=no
+#qt:with_x11=False
+#qt:gui=False
+#qt:widgets=False
+#qt:with_libpng=False
+#qt:with_mysql=False
 
 

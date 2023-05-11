@@ -1,1 +1,5 @@
-test_package/
+test_package/build
+settings.json
+.conan/
+build/
+.cache/
