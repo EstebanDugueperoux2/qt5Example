@@ -1,1 +1,11 @@
-test_package/
+test_package/build
+settings.json
+.conan/data/
+.conan/.conan.db
+.conan/artifacts.properties
+.conan/cacert.pem
+.conan/conan.conf
+.conan/remotes.json
+.conan/settings.yml
+.conan/version.txt
+.conan/hooks/

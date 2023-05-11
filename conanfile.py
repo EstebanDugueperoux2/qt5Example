@@ -28,12 +28,14 @@ class qt5exampleConan(ConanFile):
     exports_sources = "CMakeLists.txt", "src/*", "include/*"
     
     def requirements(self):
-        self.requires('boost/1.81.0')
-        # self.requires('qt/5.15.8')
+        #self.requires('boost/1.81.0')
+        self.requires('qt/5.15.8')
+        # self.requires('qt/6.5.0')
         # self.requires("zlib/1.2.12", override=True)
+        self.requires("libffi/3.4.4", override=True)
 
     def build_requirements(self):
-        self.tool_requires("cmake/3.25.1")
+        self.tool_requires("cmake/3.26.3")
         self.tool_requires("ninja/1.11.1")
 
     def layout(self):
